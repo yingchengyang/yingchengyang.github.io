@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Chengyang Ying"
   avatar           : "profile.png"
-  bio              : # "Your biography for the left-hand sidebar"
+  bio              : "PhD student at Tsinghua University, Machine Learning, Reinforcement Learning"
   location         : "Beijing China"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : # "http://yourfullgooglescholarurl.com" 
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=vM6KE18AAAAJ" 
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
