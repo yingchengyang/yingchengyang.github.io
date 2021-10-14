@@ -12,14 +12,14 @@ I’m Chengyang Ying, a first-year PhD student of TSAIL Group in the Department 
 
 Publications & Manuscripts
 ======
-* Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning
-You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang
+* Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning <br>
+You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
 arXiv preprint arXiv:2106.15860
 
-* Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents
-You Qiaoben, Xinning Zhou, **Chengyang Ying**, Jun Zhu
+* Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents <br>
+You Qiaoben, Xinning Zhou, **Chengyang Ying**, Jun Zhu <br>
 ICML 2021 Workshop on Adversarial Machine Learning, 2021
 
-* Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk
-**Chengyang Ying**, Xinning Zhou, Dong Yan, Jun Zhu
+* Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk <br>
+**Chengyang Ying**, Xinning Zhou, Dong Yan, Jun Zhu <br>
 ICML 2021 Workshop on Adversarial Machine Learning, 2021
