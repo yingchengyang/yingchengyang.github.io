@@ -14,20 +14,23 @@ Worshop Papers
 ======
 * Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents <br>
 You Qiaoben, Xinning Zhou, **Chengyang Ying**, Jun Zhu <br>
-ICML 2021 Workshop on Adversarial Machine Learning, 2021
-\[\]
+ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
+\[[pdf](https://openreview.net/pdf?id=FSD_8Sglf_u)\]
 
 * Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk <br>
 **Chengyang Ying**, Xinning Zhou, Dong Yan, Jun Zhu <br>
-ICML 2021 Workshop on Adversarial Machine Learning, 2021
+ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
+\[[pdf](https://openreview.net/pdf?id=igA6MDRISO1)\]
 
 Preprints
 ======
 * Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning <br>
 You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
-arXiv preprint arXiv:2106.15860
+arXiv preprint arXiv:2106.15860 <br>
+\[[pdf](https://arxiv.org/pdf/2106.15860.pdf)\]
 
 Manuscripts
 ======
 * Analysis of Alignment Phenomenon in Simple Teacher-student Networks with Finite Width <br>
-Hanlin Zhu, **Chengyang Ying**, Song Zuo
+Hanlin Zhu, **Chengyang Ying**, Song Zuo <br>
+\[[pdf](https://openreview.net/pdf?id=e3bhF_p0T7c)\]
