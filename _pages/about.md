@@ -34,3 +34,16 @@ Manuscripts
 * Analysis of Alignment Phenomenon in Simple Teacher-student Networks with Finite Width <br>
 Hanlin Zhu, **Chengyang Ying**, Song Zuo <br>
 \[[pdf](https://openreview.net/pdf?id=e3bhF_p0T7c)\]
+
+Honors & Awards
+======
+* Beijing Outstanding Gradates, 2021.6 
+* Tsinghua Good Gradates, Tsinghua University, 2021.6
+* China National Scholarship, Tsinghua University, 2018.10
+* The first prize of “Gao Jiao She Bei”national mathematical modeling competition for College Students, 2018.10
+* Comprehensive Excellence Award, Tsinghua University, 2018-2020
+
+Teaching
+======
+2021 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof Hang Su
+2021 Fall, TA in Discrete mathematics for Computer Science, instructed by A/Prof Hang Su
