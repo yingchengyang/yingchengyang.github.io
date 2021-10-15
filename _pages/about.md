@@ -49,5 +49,5 @@ Teaching
 2021 Fall, TA in Discrete mathematics for Computer Science, instructed by A/Prof Hang Su
 
  
-======
+---
 Last update: October 2021 by Chengyang Ying
