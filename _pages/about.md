@@ -39,6 +39,9 @@ Honors & Awards
 ======
 * Beijing Outstanding Gradates, 2021.6 
 * Tsinghua Good Gradates, Tsinghua University, 2021.6
+* WQF Scholarship, Tsinghua University, 2020.10
+* ZhaoFangxiong Scholorship, Dept. Math, Tsinghua Univrsity, 2020.4
+* Hengda Scholarship, Tsinghua University, 2019.10
 * China National Scholarship, Tsinghua University, 2018.10
 * The first prize of “Gao Jiao She Bei”national mathematical modeling competition for College Students, 2018.10
 * Comprehensive Excellence Award, Tsinghua University, 2018-2020
