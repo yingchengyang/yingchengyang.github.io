@@ -35,6 +35,11 @@ Manuscripts
 Hanlin Zhu, **Chengyang Ying**, Song Zuo <br>
 \[[pdf](https://openreview.net/pdf?id=e3bhF_p0T7c)\]
 
+Projects
+======
+* We (Zhongkai Hao, Chengyang Ying, Zhengyi Wang) automatically crawl and classify articles about NN4Phys.<br>
+\[[link](https://ml.cs.tsinghua.edu.cn/~zhongkai/papers/ml4phys_paperlist.txt)\]
+
 Honors & Awards
 ======
 * Beijing Outstanding Gradates, 2021.6 
