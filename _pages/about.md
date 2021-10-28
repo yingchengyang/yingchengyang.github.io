@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m Chengyang Ying, a first-year PhD student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in the [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning** and **neural network for physics**. Before that, I obtained my Bachelor of Science degree in [Department of Mathematical Sciences](https://math.tsinghua.edu.cn/) of [Tsinghua University](https://www.tsinghua.edu.cn/), majored in **mathematics** and minored in **computer application**.
+I’m Chengyang Ying, a first-year PhD student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in the [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning** and **neural network for physics**. Before that, I obtained my Bachelor of Science degree in [Department of Mathematical Sciences](https://math.tsinghua.edu.cn/) of [Tsinghua University](https://www.tsinghua.edu.cn/), majored in **Mathematics** and minored in **Computer Application**.
 
 Worshop Papers & Preprints
 ======
