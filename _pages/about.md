@@ -57,6 +57,10 @@ Teaching
 * 2021 Fall, TA in Discrete mathematics for Computer Science, instructed by A/Prof Hang Su
 * 2021 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof Hang Su
 
+Miscellaneous
+======
+Reading group slides:
+* [Max-Entropy Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meedting/Reading_Meeting_20211126.pdf)
  
 ***
 Last update: October 2021 by Chengyang Ying
