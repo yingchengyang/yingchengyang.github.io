@@ -24,10 +24,10 @@ ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
 ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
 \[[pdf](https://openreview.net/pdf?id=igA6MDRISO1)\]
 
-* [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/abs/2106.15860) <br>
+* [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/abs/2106.15860v2) <br>
 You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
 arXiv preprint arXiv:2106.15860 <br>
-\[[pdf](https://arxiv.org/pdf/2106.15860.pdf)\]
+\[[pdf](https://arxiv.org/pdf/2106.15860v2.pdf)\]
 
 Manuscripts
 ======
