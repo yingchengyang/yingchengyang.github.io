@@ -12,6 +12,8 @@ I’m Chengyang Ying, a first-year PhD student of [TSAIL Group](https://ml.cs.ts
 
 Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
+[Paper reading list of part recent research on Single Agent RL](https://github.com/yingchengyang/Reinforcement-Learning-Papers)
+
 Worshop Papers & Preprints
 ======
 * [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/forum?id=FSD_8Sglf_u) <br>
@@ -40,6 +42,12 @@ Projects
 * We (Zhongkai Hao, Chengyang Ying, Zhengyi Wang) automatically crawl and classify articles about NN4Phys.<br>
 \[[link](https://ml.cs.tsinghua.edu.cn/~zhongkai/papers/ml4phys_paperlist.txt)\]
 
+Services
+======
+Conference reviewer: ICML 2022
+
+Others: Reviewer for adversarial ML workshop@ICML-21 & AAAI-22
+
 Honors & Awards
 ======
 * **Beijing Outstanding Gradates, 2021.6** 
@@ -63,4 +71,4 @@ Reading group slides:
 * [Max-Entropy Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meedting/Reading_Meeting_20211126.pdf)
  
 ***
-Last update: October 2021 by Chengyang Ying
+Last update: February 2022 by Chengyang Ying
