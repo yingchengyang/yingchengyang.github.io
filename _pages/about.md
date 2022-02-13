@@ -44,9 +44,9 @@ Projects
 
 Services
 ======
-Conference reviewer: ICML 2022
+Conference Reviewer: ICML 2022
 
-Others: Reviewer for adversarial ML workshop@ICML-21 & AAAI-22
+Others: Reviewer for Adversarial Machine Larning workshop@ICML-21 & AAAI-22
 
 Honors & Awards
 ======
