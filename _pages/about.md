@@ -44,7 +44,7 @@ Projects
 
 Services
 ======
-Conference Reviewer: ICML 2022
+Conference: Reviewer for ICML 2022
 
 Others: Reviewer for Adversarial Machine Larning workshop@ICML-21 & AAAI-22
 
@@ -62,8 +62,9 @@ Honors & Awards
 
 Teaching
 ======
-* 2021 Fall, TA in Discrete mathematics for Computer Science, instructed by A/Prof Hang Su
-* 2021 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof Hang Su
+* 2022 spring, TA in Statistical Machine Learning, instructed by Prof. Jun Zhu
+* 2021 Fall, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
+* 2021 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
 
 Miscellaneous
 ======
