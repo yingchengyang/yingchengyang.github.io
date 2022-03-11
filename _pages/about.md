@@ -71,6 +71,7 @@ Miscellaneous
 ======
 Reading group slides:
 * [Max-Entropy Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meedting/Reading_Meeting_20211126.pdf)
+* [Meta Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meedting/Reading_Meeting_20220311.pdf)
  
 ***
 Last update: February 2022 by Chengyang Ying
