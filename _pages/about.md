@@ -14,6 +14,13 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 [Paper reading list of part recent research on Single Agent RL](https://github.com/yingchengyang/Reinforcement-Learning-Papers)
 
+Publications
+======
+* Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk <br>
+**Chengyang Ying**, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, Jun Zhu <br>
+International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, 2022. <br>
+<!-- \[arxiv\] \[poster\] \[code\] -->
+
 Worshop Papers & Preprints
 ======
 * [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/forum?id=FSD_8Sglf_u) <br>
@@ -46,7 +53,7 @@ Services
 ======
 Conference: Reviewer for ICML 2022
 
-Others: Reviewer for Adversarial Machine Larning workshop@ICML-21 & AAAI-22
+Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022
 
 Honors & Awards
 ======
@@ -70,8 +77,8 @@ Teaching
 Miscellaneous
 ======
 Reading group slides:
-* [Max-Entropy Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20211126.pdf)
 * [Meta Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20220311.pdf)
+* [Max-Entropy Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20211126.pdf)
  
 ***
-Last update: March 2022 by Chengyang Ying
+Last update: April 2022 by Chengyang Ying
