@@ -18,7 +18,7 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
-* [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk]() <br>
+* Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk <br>
 **Chengyang Ying**, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, 2022. <br>
 \[[workshop pdf](https://openreview.net/pdf?id=igA6MDRISO1)\]
