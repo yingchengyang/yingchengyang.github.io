@@ -18,9 +18,13 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
+* [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing]() <br>
+Zhongkai Hao, **Chengyang Ying**, Yinpeng Dong, Hang Su, Jian Song, Jun Zhu <br>
+International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022. <br>
+
 * [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk]() <br>
 **Chengyang Ying**, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, Jun Zhu <br>
-International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, 2022. <br>
+International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, Austria, 2022. <br>
 \[[workshop pdf](https://openreview.net/pdf?id=igA6MDRISO1)\]
 <!-- \[arxiv\] \[poster\] \[code\] -->
 
