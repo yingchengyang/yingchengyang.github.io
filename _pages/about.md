@@ -25,7 +25,7 @@ International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022. <
 * [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk]() <br>
 **Chengyang Ying**, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, Austria, 2022. <br>
-\[[workshop pdf](https://openreview.net/pdf?id=igA6MDRISO1)\]
+[\[workshop pdf\]](https://openreview.net/pdf?id=igA6MDRISO1)
 <!-- \[arxiv\] \[poster\] \[code\] -->
 
 Worshop Papers & Preprints
@@ -33,17 +33,17 @@ Worshop Papers & Preprints
 * [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/forum?id=FSD_8Sglf_u) <br>
 You Qiaoben, Xinning Zhou, **Chengyang Ying**, Jun Zhu <br>
 ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
-\[[pdf](https://openreview.net/pdf?id=FSD_8Sglf_u)\]
+[\[pdf\]](https://openreview.net/pdf?id=FSD_8Sglf_u)
 
 * [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk](https://openreview.net/forum?id=igA6MDRISO1) <br>
 **Chengyang Ying**, Xinning Zhou, Dong Yan, Jun Zhu <br>
 ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
-\[[pdf](https://openreview.net/pdf?id=igA6MDRISO1)\]
+[\[pdf\]](https://openreview.net/pdf?id=igA6MDRISO1)
 
 * [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/abs/2106.15860v2) <br>
 You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
 arXiv preprint arXiv:2106.15860 <br>
-\[[pdf](https://arxiv.org/pdf/2106.15860v2.pdf)\]
+[\[pdf\]](https://arxiv.org/pdf/2106.15860v2.pdf)
 
 <!-- Manuscripts
 ======
