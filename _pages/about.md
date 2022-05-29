@@ -58,7 +58,7 @@ Projects
 
 Services
 ======
-Conference: Reviewer for ICML 2022
+Conference: Reviewer for ICML 2022, NeurIPS 2022
 
 Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022
 
