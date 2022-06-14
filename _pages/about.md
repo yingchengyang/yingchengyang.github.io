@@ -32,6 +32,11 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
+* [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://arxiv.org/abs/2206.05751) <br>
+You Qiaoben<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
+arXiv preprint arXiv:2206.05751 <br>
+[\[pdf\]](https://arxiv.org/pdf/2206.05751.pdf)
+
 * [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/forum?id=FSD_8Sglf_u) <br>
 You Qiaoben, Xinning Zhou, **Chengyang Ying**, Jun Zhu <br>
 ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
