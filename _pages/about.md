@@ -96,4 +96,4 @@ Reading group slides:
 * [Max-Entropy Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20211126.pdf)
  
 ***
-Last update: May 2022 by Chengyang Ying
+Last update: June 2022 by Chengyang Ying
