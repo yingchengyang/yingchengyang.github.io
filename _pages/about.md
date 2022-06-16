@@ -27,8 +27,7 @@ International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022. <
 **Chengyang Ying**, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, Austria, 2022. <br>
 [\[arXiv\]](https://arxiv.org/pdf/2206.04436.pdf)
-<!-- [\[workshop pdf\]](https://openreview.net/pdf?id=igA6MDRISO1) -->
-<!-- \[arxiv\] \[poster\] \[code\] -->
+
 
 Worshop Papers & Preprints
 ======
