@@ -49,7 +49,7 @@ ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
 * [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/abs/2106.15860v2) <br>
 You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
 arXiv preprint arXiv:2106.15860 <br>
-[\[pdf\]](https://arxiv.org/pdf/2106.15860v2.pdf)
+[\[pdf\]](https://arxiv.org/pdf/2106.15860.pdf)
 
 <!-- Manuscripts
 ======
@@ -78,7 +78,7 @@ Honors & Awards
 * **China National Scholarship, Tsinghua University, 2018.10**
 * The first prize of “Gao Jiao She Bei”national mathematical modeling competition for College Students, 2018.10
 * Comprehensive Excellence Award, Tsinghua University, 2018-2020
-* **Silver Award of Chinese Mathematical Olympiad (CMO), 2016**
+* **Silver Award of Chinese Mathematical Olympiad (CMO), 2016.11**
 
 Teaching
 ======
