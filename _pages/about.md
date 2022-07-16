@@ -18,7 +18,7 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
-* [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing]() <br>
+* [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing](https://proceedings.mlr.press/v162/hao22c/hao22c.pdf) <br>
 Zhongkai Hao, **Chengyang Ying**, Yinpeng Dong, Hang Su, Jian Song, Jun Zhu <br>
 International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022. <br>
 [\[arXiv\]](https://arxiv.org/pdf/2206.04310.pdf)
