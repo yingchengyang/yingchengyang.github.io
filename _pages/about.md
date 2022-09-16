@@ -31,6 +31,16 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
+* [On the Reuse Bias in Off-Policy Reinforcement Learning](https://arxiv.org/abs/2209.07074) <br>
+**Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
+arxiv preprint arXiv:2209.07074 <br>
+[\[pdf\]](https://arxiv.org/pdf/2209.07074.pdf)
+
+* [Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients](https://arxiv.org/abs/2209.07075) <br>
+Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
+arxiv preprint arXiv:2209.07075 <br>
+[\[pdf\]](https://arxiv.org/pdf/2209.07075.pdf)
+
 * [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://arxiv.org/abs/2206.05751) <br>
 You Qiaoben<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
 arXiv preprint arXiv:2206.05751 <br>
@@ -49,7 +59,7 @@ ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
 * [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/abs/2106.15860v2) <br>
 You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
 arXiv preprint arXiv:2106.15860 <br>
-[\[pdf\]](https://arxiv.org/pdf/2106.15860.pdf)
+[\[pdf\]](https://arxiv.org/pdf/2106.15860.pdf) [\[code\]](https://github.com/yingchengyang/Two-Stage-Attack)
 
 <!-- Manuscripts
 ======
@@ -95,4 +105,4 @@ Reading group slides:
 * [Max-Entropy Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20211126.pdf)
  
 ***
-Last update: August 2022 by Chengyang Ying
+Last update: September 2022 by Chengyang Ying
