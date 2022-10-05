@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m Chengyang Ying, a second-year PhD student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning** and **neural network for physics**. 
+I’m Chengyang Ying, a second-year PhD student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and A/Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning** and **neural network for physics**. 
 
 Before that, I obtained my Bachelor of Science degree from [Department of Mathematical Sciences](https://math.tsinghua.edu.cn/) of [Tsinghua University](https://www.tsinghua.edu.cn/) in July, 2021, majored in **Mathematics** and minored in **Computer Application**.
 
