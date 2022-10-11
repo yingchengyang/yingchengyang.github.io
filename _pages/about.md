@@ -18,6 +18,11 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
+* [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs]() <br>
+Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Ze Cheng <br>
+Neural Information Processing Systems **(NeurIPS)**, New Orleans, USA, 2022. <br>
+[\[arXiv\]](https://arxiv.org/pdf/2210.03526.pdf)
+
 * [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing](https://proceedings.mlr.press/v162/hao22c/hao22c.pdf) <br>
 Zhongkai Hao, **Chengyang Ying**, Yinpeng Dong, Hang Su, Jian Song, Jun Zhu <br>
 International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022. <br>
@@ -40,6 +45,11 @@ arxiv preprint arXiv:2209.07074 <br>
 Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
 arxiv preprint arXiv:2209.07075 <br>
 [\[pdf\]](https://arxiv.org/pdf/2209.07075.pdf)
+
+* [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://arxiv.org/abs/2209.14548) <br>
+Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
+arxiv preprint arXiv:2209:14548 <br>
+[\[pdf\]](https://arxiv.org/pdf/2209.14548.pdf)
 
 * [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://arxiv.org/abs/2206.05751) <br>
 You Qiaoben<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
@@ -105,4 +115,4 @@ Reading group slides:
 * [Max-Entropy Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20211126.pdf)
  
 ***
-Last update: September 2022 by Chengyang Ying
+Last update: October 2022 by Chengyang Ying
