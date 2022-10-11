@@ -20,7 +20,7 @@ Publications
 ======
 * [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs]() <br>
 Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Ze Cheng <br>
-Neural Information Processing Systems **(NeurIPS)**, New Orleans, USA, 2022. <br>
+Conference on Neural Information Processing Systems **(NeurIPS)**, New Orleans, USA, 2022. <br>
 [\[arXiv\]](https://arxiv.org/pdf/2210.03526.pdf)
 
 * [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing](https://proceedings.mlr.press/v162/hao22c/hao22c.pdf) <br>
