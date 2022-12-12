@@ -18,10 +18,10 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
-* [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs]() <br>
+* [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs](https://openreview.net/pdf?id=GNt5ntEGjD3) <br>
 Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Ze Cheng <br>
 Conference on Neural Information Processing Systems **(NeurIPS)**, New Orleans, USA, 2022. <br>
-[\[arXiv\]](https://arxiv.org/pdf/2210.03526.pdf)
+[\[arXiv\]](https://arxiv.org/pdf/2210.03526.pdf) [\[code\]](https://github.com/csuastt/hardconstraint)
 
 * [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing](https://proceedings.mlr.press/v162/hao22c/hao22c.pdf) <br>
 Zhongkai Hao, **Chengyang Ying**, Yinpeng Dong, Hang Su, Jian Song, Jun Zhu <br>
