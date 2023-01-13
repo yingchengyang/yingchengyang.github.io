@@ -86,7 +86,7 @@ Services
 ======
 Conference: Reviewer for ICML 2022, NeurIPS 2022
 
-Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022
+<!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
 
 Honors & Awards
 ======
@@ -104,8 +104,8 @@ Teaching
 ======
 * 2022 Spring, TA in Deep Learning, instructed by A/Prof. Xiaolin Hu and Prof. Jun Zhu
 * 2022 Spring, TA in Statistical Machine Learning, instructed by Prof. Jun Zhu
-* 2021 Fall, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
-* 2021 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
+* 2021 Spring & 2021 Fall, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
+<!-- * 2021 Fall, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su -->
 
 Miscellaneous
 ======
