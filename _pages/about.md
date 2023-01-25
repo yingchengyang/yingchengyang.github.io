@@ -20,12 +20,12 @@ Publications
 ======
 * [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://arxiv.org/abs/2209.14548) <br>
 Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
-International Conference on Learning Representations **(ICLR)**, Kigali Rwanda, 2023 <br>
+International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.14548.pdf)
 
 * [Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients](https://arxiv.org/abs/2209.07075) <br>
 Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
-International Conference on Learning Representations **(ICLR)**, Kigali Rwanda, 2023 <br>
+International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf)
 
 * [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/abs/2106.15860v2) <br>
@@ -60,6 +60,11 @@ arXiv preprint arXiv:2209.07074 <br>
 **Chengyang Ying<sup>&lowast;</sup>**, You Qiaoben<sup>&lowast;</sup>, Xinning Zhou<sup>&lowast;</sup>, Hang Su, Jun Zhu, Bo Zhang <br>
 arXiv preprint arXiv:2206.05751 <br>
 [\[pdf\]](https://arxiv.org/pdf/2206.05751.pdf)
+
+* [Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications](https://arxiv.org/abs/2211.08064) <br>
+Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, Jun Zhu <br>
+arXiv preprint arXiv:2211.08064 <br>
+[\[pdf\]](https://arxiv.org/pdf/2211.08064.pdf)
 
 * [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/forum?id=FSD_8Sglf_u) <br>
 You Qiaoben, Xinning Zhou, **Chengyang Ying**, Jun Zhu <br>
