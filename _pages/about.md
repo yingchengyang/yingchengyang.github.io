@@ -110,8 +110,7 @@ Teaching
 ======
 * 2022 Spring, TA in Deep Learning, instructed by A/Prof. Xiaolin Hu and Prof. Jun Zhu
 * 2022 Spring, TA in Statistical Machine Learning, instructed by Prof. Jun Zhu
-* 2021 Spring & 2021 Fall, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
-<!-- * 2021 Fall, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su -->
+* 2021 Spring & 2021 Fall & 2023 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
 
 Miscellaneous
 ======
