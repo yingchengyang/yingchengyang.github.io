@@ -18,17 +18,17 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
-* [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://arxiv.org/abs/2209.14548) <br>
+* Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling <br>
 Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.14548.pdf)
 
-* [Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients](https://arxiv.org/abs/2209.07075) <br>
+* Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients <br>
 Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf)
 
-* [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/abs/2106.15860v2) <br>
+* Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning <br>
 You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
 SCIENCE CHINA Information Sciences **(SCIS)**, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2106.15860.pdf) [\[code\]](https://github.com/yingchengyang/Two-Stage-Attack)
