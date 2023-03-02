@@ -21,7 +21,7 @@ Publications
 * [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://openreview.net/pdf?id=42zs3qa2kpy) <br>
 Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
-[\[arXiv\]](https://arxiv.org/pdf/2209.14548.pdf)
+[\[arXiv\]](https://arxiv.org/pdf/2209.14548.pdf) [\[code\]](https://github.com/ChenDRAG/SfBC)
 
 * [Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients](https://openreview.net/pdf?id=kkpL4zUXtiw) <br>
 Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
