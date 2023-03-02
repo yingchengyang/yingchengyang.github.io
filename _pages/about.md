@@ -46,7 +46,7 @@ International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022. <
 * [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk](https://www.ijcai.org/proceedings/2022/0510.pdf) <br>
 **Chengyang Ying**, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, Austria, 2022. <br>
-[\[arXiv\]](https://arxiv.org/pdf/2206.04436.pdf) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/1_CVaR_safe_RL/CVaR_Safe_RL.pdf) [\[code\]](https://github.com/yingchengyang/CPPO) [\[ICML 2021 AML Workshop\]](https://openreview.net/pdf?id=igA6MDRISO1)
+[\[arXiv\]](https://arxiv.org/pdf/2206.04436.pdf) [\[code\]](https://github.com/yingchengyang/CPPO) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/1_CVaR_safe_RL/CVaR_Safe_RL.pdf) [\[ICML 2021 AML Workshop\]](https://openreview.net/pdf?id=igA6MDRISO1)
 
 
 Worshop Papers & Preprints
