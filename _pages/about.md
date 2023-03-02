@@ -18,12 +18,12 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
-* Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling <br>
+* [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://openreview.net/pdf?id=42zs3qa2kpy) <br>
 Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.14548.pdf)
 
-* Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients <br>
+* [Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients](https://openreview.net/pdf?id=kkpL4zUXtiw) <br>
 Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf)
