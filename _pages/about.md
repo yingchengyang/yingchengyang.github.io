@@ -18,6 +18,11 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
+* Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation
+**Chengyang Ying<sup>&lowast;</sup>**, You Qiaoben<sup>&lowast;</sup>, Xinning Zhou<sup>&lowast;</sup>, Hang Su, Wenbo Ding; Jianyong Ai <br>
+Pattern Recognition Letters **(PRL)**, 2023<br>
+[\[arXiv\]](https://arxiv.org/pdf/2206.05751.pdf)
+
 * [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://openreview.net/pdf?id=42zs3qa2kpy) <br>
 Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
@@ -55,11 +60,6 @@ Worshop Papers & Preprints
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
 arXiv preprint arXiv:2209.07074 <br>
 [\[pdf\]](https://arxiv.org/pdf/2209.07074.pdf)
-
-* [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://arxiv.org/abs/2206.05751) <br>
-**Chengyang Ying<sup>&lowast;</sup>**, You Qiaoben<sup>&lowast;</sup>, Xinning Zhou<sup>&lowast;</sup>, Hang Su, Jun Zhu, Bo Zhang <br>
-arXiv preprint arXiv:2206.05751 <br>
-[\[pdf\]](https://arxiv.org/pdf/2206.05751.pdf)
 
 * [Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications](https://arxiv.org/abs/2211.08064) <br>
 Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, Jun Zhu <br>
@@ -121,4 +121,4 @@ Reading group slides:
 * [Max-Entropy Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20211126.pdf)
  
 ***
-Last update: January 2023 by Chengyang Ying
+Last update: March 2023 by Chengyang Ying
