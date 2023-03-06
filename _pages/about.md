@@ -56,20 +56,19 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
-* [On the Reuse Bias in Off-Policy Reinforcement Learning](https://arxiv.org/abs/2209.07074) <br>
+* On the Reuse Bias in Off-Policy Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
 arXiv preprint arXiv:2209.07074 <br>
-[\[pdf\]](https://arxiv.org/pdf/2209.07074.pdf)
+[\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf)
 
-* [Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications](https://arxiv.org/abs/2211.08064) <br>
+* Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications <br>
 Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, Jun Zhu <br>
 arXiv preprint arXiv:2211.08064 <br>
-[\[pdf\]](https://arxiv.org/pdf/2211.08064.pdf)
+[\[arXiv\]](https://arxiv.org/pdf/2211.08064.pdf)
 
-* [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/forum?id=FSD_8Sglf_u) <br>
+* [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/pdf?id=FSD_8Sglf_u) <br>
 You Qiaoben, Xinning Zhou, **Chengyang Ying**, Jun Zhu <br>
 ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
-[\[pdf\]](https://openreview.net/pdf?id=FSD_8Sglf_u)
 
 <!-- * [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk](https://openreview.net/forum?id=igA6MDRISO1) <br>
 **Chengyang Ying**, Xinning Zhou, Dong Yan, Jun Zhu <br>
