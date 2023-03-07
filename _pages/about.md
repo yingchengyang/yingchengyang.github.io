@@ -18,7 +18,7 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
-* Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation <br>
+* [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://www.sciencedirect.com/science/article/pii/S0167865523000661) <br>
 **Chengyang Ying<sup>&lowast;</sup>**, You Qiaoben<sup>&lowast;</sup>, Xinning Zhou<sup>&lowast;</sup>, Hang Su, Wenbo Ding, Jianyong Ai <br>
 Pattern Recognition Letters **(PRL)**, 2023<br>
 [\[arXiv\]](https://arxiv.org/pdf/2206.05751.pdf)
