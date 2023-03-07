@@ -38,20 +38,20 @@ You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
 SCIENCE CHINA Information Sciences **(SCIS)**, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2106.15860.pdf) [\[code\]](https://github.com/yingchengyang/Two-Stage-Attack)
 
-* [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs](https://openreview.net/pdf?id=GNt5ntEGjD3) <br>
+* [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs](https://openreview.net/forum?id=GNt5ntEGjD3) <br>
 Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Ze Cheng <br>
 Conference on Neural Information Processing Systems **(NeurIPS)**, New Orleans, USA, 2022. <br>
-[\[arXiv\]](https://arxiv.org/pdf/2210.03526.pdf) [\[code\]](https://github.com/csuastt/hardconstraint)
+[\[pdf\]](https://openreview.net/pdf?id=GNt5ntEGjD3) [\[arXiv\]](https://arxiv.org/pdf/2210.03526.pdf) [\[code\]](https://github.com/csuastt/hardconstraint)
 
-* [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing](https://proceedings.mlr.press/v162/hao22c/hao22c.pdf) <br>
+* [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing](https://proceedings.mlr.press/v162/hao22c) <br>
 Zhongkai Hao, **Chengyang Ying**, Yinpeng Dong, Hang Su, Jian Song, Jun Zhu <br>
 International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022. <br>
-[\[arXiv\]](https://arxiv.org/pdf/2206.04310.pdf)
+[\[pdf\]](https://proceedings.mlr.press/v162/hao22c/hao22c.pdf) [\[arXiv\]](https://arxiv.org/pdf/2206.04310.pdf)
 
-* [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk](https://www.ijcai.org/proceedings/2022/0510.pdf) <br>
+* [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk](https://www.ijcai.org/proceedings/2022/0510) <br>
 **Chengyang Ying**, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, Austria, 2022. <br>
-[\[arXiv\]](https://arxiv.org/pdf/2206.04436.pdf) [\[code\]](https://github.com/yingchengyang/CPPO) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/1_CVaR_safe_RL/CVaR_Safe_RL.pdf) [\[ICML 2021 AML Workshop\]](https://openreview.net/pdf?id=igA6MDRISO1)
+[\[pdf\]](https://www.ijcai.org/proceedings/2022/0510.pdf) [\[arXiv\]](https://arxiv.org/pdf/2206.04436.pdf) [\[code\]](https://github.com/yingchengyang/CPPO) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/1_CVaR_safe_RL/CVaR_Safe_RL.pdf) [\[ICML 2021 AML Workshop\]](https://openreview.net/pdf?id=igA6MDRISO1)
 
 
 Worshop Papers & Preprints
