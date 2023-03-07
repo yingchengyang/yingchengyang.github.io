@@ -23,15 +23,15 @@ Publications
 Pattern Recognition Letters **(PRL)**, 2023<br>
 [\[arXiv\]](https://arxiv.org/pdf/2206.05751.pdf)
 
-* [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://openreview.net/pdf?id=42zs3qa2kpy) <br>
+* [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://openreview.net/forum?id=42zs3qa2kpy) <br>
 Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
-[\[arXiv\]](https://arxiv.org/pdf/2209.14548.pdf) [\[code\]](https://github.com/ChenDRAG/SfBC)
+[\[pdf\]](https://openreview.net/pdf?id=42zs3qa2kpy) [\[arXiv\]](https://arxiv.org/pdf/2209.14548.pdf) [\[code\]](https://github.com/ChenDRAG/SfBC)
 
-* [Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients](https://openreview.net/pdf?id=kkpL4zUXtiw) <br>
+* [Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients](https://openreview.net/forum?id=kkpL4zUXtiw) <br>
 Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
-[\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf)
+[\[pdf\]](https://openreview.net/pdf?id=kkpL4zUXtiw) [\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf)
 
 * Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning <br>
 You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
@@ -66,7 +66,7 @@ Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, 
 arXiv preprint arXiv:2211.08064 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2211.08064.pdf)
 
-* [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/pdf?id=FSD_8Sglf_u) <br>
+* [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/forum?id=FSD_8Sglf_u) <br>
 You Qiaoben, Xinning Zhou, **Chengyang Ying**, Jun Zhu <br>
 ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
 
