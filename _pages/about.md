@@ -114,11 +114,12 @@ Teaching
 Miscellaneous
 ======
 Reading group slides:
+* [PaLM-E](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20230308.pdf)
 * [Generalization in Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20221111.pdf)
 * [A Generalist Agent](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20220607.pdf)
 * [Meta Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20220311.pdf)
 * [Max-Entropy Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20211126.pdf)
-* [PaLM-E](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20230308.pdf)
+
  
 ***
 Last update: March 2023 by Chengyang Ying
