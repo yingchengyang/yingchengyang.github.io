@@ -56,10 +56,20 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
+* Reward Informed Dreamer for Task Generalization in Reinforcement Learning <br>
+**Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Songming Liu, Jialian Li, Dong Yan, Jun Zhu <br>
+arViv preprint arXiv:2303.05092 <br>
+[\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
+
 * On the Reuse Bias in Off-Policy Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
 arXiv preprint arXiv:2209.07074 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf)
+
+* GNOT: A General Neural Operator Transformer for Operator Learning <br>
+Zhongkai Hao, **Chengyang Ying**, Zhengyi Wang, Hang Su, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song
+arXiv preprint arXiv:2302.14376 <br>
+[\[arXiv\]](https://arxiv.org/pdf/2302.14376.pdf)
 
 * Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications <br>
 Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, Jun Zhu <br>
