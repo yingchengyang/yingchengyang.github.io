@@ -67,7 +67,7 @@ arXiv preprint arXiv:2209.07074 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf)
 
 * GNOT: A General Neural Operator Transformer for Operator Learning <br>
-Zhongkai Hao, **Chengyang Ying**, Zhengyi Wang, Hang Su, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song
+Zhongkai Hao, **Chengyang Ying**, Zhengyi Wang, Hang Su, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song <br>
 arXiv preprint arXiv:2302.14376 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2302.14376.pdf)
 
