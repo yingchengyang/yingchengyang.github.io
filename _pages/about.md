@@ -21,7 +21,7 @@ Publications
 * [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://www.sciencedirect.com/science/article/pii/S0167865523000661) <br>
 **Chengyang Ying<sup>&lowast;</sup>**, You Qiaoben<sup>&lowast;</sup>, Xinning Zhou<sup>&lowast;</sup>, Hang Su, Wenbo Ding, Jianyong Ai <br>
 Pattern Recognition Letters **(PRL)**, 2023<br>
-[\[arXiv\]](https://arxiv.org/pdf/2206.05751.pdf)
+[\[arXiv\]](https://arxiv.org/pdf/2206.05751.pdf) [\[code\]](https://github.com/yingchengyang/Consistent-Attack)
 
 * [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://openreview.net/forum?id=42zs3qa2kpy) <br>
 Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
