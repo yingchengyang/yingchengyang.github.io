@@ -124,6 +124,7 @@ Teaching
 Miscellaneous
 ======
 Reading group slides:
+* [Foundation Models for Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20230331.pdf)
 * [PaLM-E](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20230308.pdf)
 * [Generalization in Reinforcement Learning](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20221111.pdf)
 * [A Generalist Agent](https://ml.cs.tsinghua.edu.cn/~chengyang/reading_meeting/Reading_Meeting_20220607.pdf)
