@@ -31,7 +31,7 @@ International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda,
 * [Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients](https://openreview.net/forum?id=kkpL4zUXtiw) <br>
 Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
-[\[pdf\]](https://openreview.net/pdf?id=kkpL4zUXtiw) [\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf)
+[\[pdf\]](https://openreview.net/pdf?id=kkpL4zUXtiw) [\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf) [\[code\]](https://github.com/HaoZhongkai/Bi-level-PINN)
 
 * Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning <br>
 You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
@@ -69,7 +69,7 @@ arXiv preprint arXiv:2209.07074 <br>
 * GNOT: A General Neural Operator Transformer for Operator Learning <br>
 Zhongkai Hao, **Chengyang Ying**, Zhengyi Wang, Hang Su, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song <br>
 arXiv preprint arXiv:2302.14376 <br>
-[\[arXiv\]](https://arxiv.org/pdf/2302.14376.pdf)
+[\[arXiv\]](https://arxiv.org/pdf/2302.14376.pdf) [\[code\]](https://github.com/HaoZhongkai/GNOT)
 
 * Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications <br>
 Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, Jun Zhu <br>
