@@ -18,6 +18,11 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
+* On the Reuse Bias in Off-Policy Reinforcement Learning <br>
+**Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
+International Joint Conference on Artificial Intelligence **(IJCAI)**, Macao, China, 2023. <br>
+[\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf)
+
 * [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://www.sciencedirect.com/science/article/pii/S0167865523000661) <br>
 **Chengyang Ying<sup>&lowast;</sup>**, You Qiaoben<sup>&lowast;</sup>, Xinning Zhou<sup>&lowast;</sup>, Hang Su, Wenbo Ding, Jianyong Ai <br>
 Pattern Recognition Letters **(PRL)**, 2023<br>
@@ -60,11 +65,6 @@ Worshop Papers & Preprints
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Songming Liu, Jialian Li, Dong Yan, Jun Zhu <br>
 arViv preprint arXiv:2303.05092 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
-
-* On the Reuse Bias in Off-Policy Reinforcement Learning <br>
-**Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
-arXiv preprint arXiv:2209.07074 <br>
-[\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf)
 
 * GNOT: A General Neural Operator Transformer for Operator Learning <br>
 Zhongkai Hao, **Chengyang Ying**, Zhengyi Wang, Hang Su, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song <br>
