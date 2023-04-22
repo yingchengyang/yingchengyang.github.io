@@ -20,7 +20,7 @@ Publications
 ======
 * On the Reuse Bias in Off-Policy Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
-International Joint Conference on Artificial Intelligence **(IJCAI)**, Macao, China, 2023. <br>
+International Joint Conference on Artificial Intelligence **(IJCAI)**, Macao, China, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf) [\[code\]](https://github.com/yingchengyang/BIRIS)
 
 * [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://www.sciencedirect.com/science/article/pii/S0167865523000661) <br>
