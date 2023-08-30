@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m Chengyang Ying, a second-year Ph.D. student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and A/Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning** and **AI for science**. 
+I’m Chengyang Ying, a third-year Ph.D. student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and A/Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning** and **AI for science**. 
 
 Before that, I obtained my Bachelor of Science degree from [Department of Mathematical Sciences](https://math.tsinghua.edu.cn/) of [Tsinghua University](https://www.tsinghua.edu.cn/) in July, 2021, majored in **Mathematics** and minored in **Computer Application**.
 
@@ -18,19 +18,20 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
-* On the Reuse Bias in Off-Policy Reinforcement Learning <br>
+* [On the Reuse Bias in Off-Policy Reinforcement Learning](https://www.ijcai.org/proceedings/2023/0502) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Macao, China, 2023 <br>
-[\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf) [\[code\]](https://github.com/yingchengyang/BIRIS) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/Reuse_Bias/reuse_bias.pdf)
+[\[pdf\]](https://www.ijcai.org/proceedings/2023/0502.pdf) [\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf) [\[code\]](https://github.com/yingchengyang/BIRIS) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/Reuse_Bias/reuse_bias.pdf)
 
-* GNOT: A General Neural Operator Transformer for Operator Learning <br>
-Zhongkai Hao, **Chengyang Ying**, Zhengyi Wang, Hang Su, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song <br>
+* [GNOT: A General Neural Operator Transformer for Operator Learning](https://openreview.net/forum?id=JomvpMQ6NF) <br>
+Zhongkai Hao, Zhengyi Wang, Hang Su, **Chengyang Ying**, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song <br>
 International Conference on Machine Learning **(ICML)**, Hawaii, USA, 2023 <br>
-[\[arXiv\]](https://arxiv.org/pdf/2302.14376.pdf) [\[code\]](https://github.com/HaoZhongkai/GNOT)
+[\[pdf\]](https://openreview.net/pdf?id=JomvpMQ6NF) [\[arXiv\]](https://arxiv.org/pdf/2302.14376.pdf) [\[code\]](https://github.com/HaoZhongkai/GNOT)
 
-* NUNO: A General Framework for Learning Parametric PDEs with Non-Uniform Data <br>
+* [NUNO: A General Framework for Learning Parametric PDEs with Non-Uniform Data](https://openreview.net/forum?id=KobAWlZL29) <br>
 Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Ze Cheng, Jun Zhu <br>
 International Conference on Machine Learning **(ICML)**, Hawaii, USA, 2023 <br>
+[\[pdf\]](https://openreview.net/pdf?id=KobAWlZL29) [\[arXiv\]](https://arxiv.org/pdf/2305.18694.pdf) [\[code\]](https://github.com/thu-ml/NUNO)
 
 * [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://www.sciencedirect.com/science/article/pii/S0167865523000661) <br>
 **Chengyang Ying<sup>&lowast;</sup>**, You Qiaoben<sup>&lowast;</sup>, Xinning Zhou<sup>&lowast;</sup>, Hang Su, Wenbo Ding, Jianyong Ai <br>
@@ -137,4 +138,4 @@ Reading group slides:
 
  
 ***
-Last update: March 2023 by Chengyang Ying
+Last update: August 2023 by Chengyang Ying
