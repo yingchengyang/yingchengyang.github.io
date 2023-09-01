@@ -71,8 +71,8 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
-* Reward Informed Dreamer for Task Generalization in Reinforcement Learning <br>
-**Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Songming Liu, Jialian Li, Dong Yan, Jun Zhu <br>
+* Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
+**Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
 arViv preprint arXiv:2303.05092 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
 
