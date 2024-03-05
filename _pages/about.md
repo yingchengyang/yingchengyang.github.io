@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m Chengyang Ying, a third-year Ph.D. student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in the [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and A/Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning**, and **AI for science**. 
+I’m Chengyang Ying, a third-year Ph.D. student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in the [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and A/Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning**, **Embodied AI**, and **AI for science**. 
 
 Before that, I obtained my Bachelor of Science degree from the [Department of Mathematical Sciences](https://math.tsinghua.edu.cn/) of [Tsinghua University](https://www.tsinghua.edu.cn/) in July 2021, majored in **Mathematics** and minored in **Computer Application**.
 
@@ -104,7 +104,7 @@ Projects
 
 Services
 ======
-Reviewer for ICML 2022, NeurIPS 2022, 2023, ICLR 2024, TCSVT
+Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, ICLR 2024, CVPR 2024, IJCAI 2024, TCSVT
 
 <!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
 
@@ -125,7 +125,7 @@ Teaching
 ======
 * 2022 Spring, TA in Deep Learning, instructed by A/Prof. Xiaolin Hu and Prof. Jun Zhu
 * 2022 Spring, TA in Statistical Machine Learning, instructed by Prof. Jun Zhu
-* 2021 Spring & 2021 Fall & 2023 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
+* 2021 Spring & 2021 Fall & 2023 Spring & 2024 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
 
 Miscellaneous
 ======
@@ -139,4 +139,4 @@ Reading group slides:
 
  
 ***
-Last update: August 2023 by Chengyang Ying
+Last update: March 2024 by Chengyang Ying
