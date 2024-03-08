@@ -71,14 +71,16 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
+* DPOT: Auto-Regressive Denoising Operator Transformer for Large-Scale PDE Pre-Training <br>
+Zhongkai Hao, Chang Su, Songming Liu, Julius Berner, **Chengyang Ying**, Hang Su, Anima Anandkumar, Jian Song, Jun Zhu <br>
+[\[arXiv\]](https://arxiv.org/pdf/2403.03542.pdf)
+
 * Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
-arViv preprint arXiv:2303.05092 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
 
 * Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications <br>
 Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, Jun Zhu <br>
-arXiv preprint arXiv:2211.08064 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2211.08064.pdf)
 
 * [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/forum?id=FSD_8Sglf_u) <br>
