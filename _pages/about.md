@@ -18,10 +18,19 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
+* Fourier Controller Networks for Real-Time Decision-Making in Embodied Learning <br>
+Hengkai Tan, Songming Liu, Kai Ma, **Chengyang Ying**, Xingxing Zhang, Hang Su, Jun Zhu <br>
+International Conference on Machine Learning **(ICML)**, Vienna, Austria, 2024 <br> 
+
+* DPOT: Auto-Regressive Denoising Operator Transformer for Large-Scale PDE Pre-Training <br>
+Zhongkai Hao, Chang Su, Songming Liu, Julius Berner, **Chengyang Ying**, Hang Su, Anima Anandkumar, Jian Song, Jun Zhu <br>
+International Conference on Machine Learning **(ICML)**, Vienna, Austria, 2024 <br> 
+[\[arXiv\]](https://arxiv.org/pdf/2403.03542.pdf)
+
 * [On the Reuse Bias in Off-Policy Reinforcement Learning](https://www.ijcai.org/proceedings/2023/0502) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Macao, China, 2023 <br>
-[\[pdf\]](https://www.ijcai.org/proceedings/2023/0502.pdf) [\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf) [\[code\]](https://github.com/yingchengyang/BIRIS) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/Reuse_Bias/reuse_bias.pdf)
+[\[arXiv\]](https://www.ijcai.org/proceedings/2023/0502.pdf) [\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf) [\[code\]](https://github.com/yingchengyang/BIRIS) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/Reuse_Bias/reuse_bias.pdf)
 
 * [GNOT: A General Neural Operator Transformer for Operator Learning](https://openreview.net/forum?id=JomvpMQ6NF) <br>
 Zhongkai Hao, Zhengyi Wang, Hang Su, **Chengyang Ying**, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song <br>
@@ -71,9 +80,9 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
-* DPOT: Auto-Regressive Denoising Operator Transformer for Large-Scale PDE Pre-Training <br>
-Zhongkai Hao, Chang Su, Songming Liu, Julius Berner, **Chengyang Ying**, Hang Su, Anima Anandkumar, Jian Song, Jun Zhu <br>
-[\[arXiv\]](https://arxiv.org/pdf/2403.03542.pdf)
+* PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning <br>
+**Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
+arXiv [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
 
 * Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
@@ -106,7 +115,7 @@ Projects
 
 Services
 ======
-Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, ICLR 2024, CVPR 2024, IJCAI 2024, TCSVT
+Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, 2024, ICLR 2024, CVPR 2024, IJCAI 2024, TCSVT
 
 <!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
 
@@ -141,4 +150,4 @@ Reading group slides:
 
  
 ***
-Last update: March 2024 by Chengyang Ying
+Last update: May 2024 by Chengyang Ying
