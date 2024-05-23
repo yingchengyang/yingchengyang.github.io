@@ -18,6 +18,11 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
+* [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://link.springer.com/article/10.1007/s11432-021-3688-y) <br>
+You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
+SCIENCE CHINA Information Sciences **(SCIS)**, 2024 <br>
+[\[arXiv\]](https://arxiv.org/pdf/2106.15860.pdf) [\[code\]](https://github.com/yingchengyang/Two-Stage-Attack)
+
 * Fourier Controller Networks for Real-Time Decision-Making in Embodied Learning <br>
 Hengkai Tan, Songming Liu, Kai Ma, **Chengyang Ying**, Xingxing Zhang, Hang Su, Jun Zhu <br>
 International Conference on Machine Learning **(ICML)**, Vienna, Austria, 2024 <br> 
@@ -25,7 +30,7 @@ International Conference on Machine Learning **(ICML)**, Vienna, Austria, 2024 <
 * DPOT: Auto-Regressive Denoising Operator Transformer for Large-Scale PDE Pre-Training <br>
 Zhongkai Hao, Chang Su, Songming Liu, Julius Berner, **Chengyang Ying**, Hang Su, Anima Anandkumar, Jian Song, Jun Zhu <br>
 International Conference on Machine Learning **(ICML)**, Vienna, Austria, 2024 <br> 
-[\[arXiv\]](https://arxiv.org/pdf/2403.03542.pdf)
+[\[arXiv\]](https://arxiv.org/pdf/2403.03542.pdf) [\[code\]](https://github.com/HaoZhongkai/DPOT)
 
 * [On the Reuse Bias in Off-Policy Reinforcement Learning](https://www.ijcai.org/proceedings/2023/0502) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
@@ -56,11 +61,6 @@ International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda,
 Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
 [\[pdf\]](https://openreview.net/pdf?id=kkpL4zUXtiw) [\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf) [\[code\]](https://github.com/HaoZhongkai/Bi-level-PINN)
-
-* Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning <br>
-You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
-SCIENCE CHINA Information Sciences **(SCIS)**, 2023 <br>
-[\[arXiv\]](https://arxiv.org/pdf/2106.15860.pdf) [\[code\]](https://github.com/yingchengyang/Two-Stage-Attack)
 
 * [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs](https://openreview.net/forum?id=GNt5ntEGjD3) <br>
 Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Ze Cheng <br>
