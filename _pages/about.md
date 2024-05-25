@@ -35,7 +35,7 @@ International Conference on Machine Learning **(ICML)**, Vienna, Austria, 2024 <
 * [On the Reuse Bias in Off-Policy Reinforcement Learning](https://www.ijcai.org/proceedings/2023/0502) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Macao, China, 2023 <br>
-[\[arXiv\]](https://www.ijcai.org/proceedings/2023/0502.pdf) [\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf) [\[code\]](https://github.com/yingchengyang/BIRIS) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/Reuse_Bias/reuse_bias.pdf)
+[\[pdf\]](https://www.ijcai.org/proceedings/2023/0502.pdf) [\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf) [\[code\]](https://github.com/yingchengyang/BIRIS) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/Reuse_Bias/reuse_bias.pdf)
 
 * [GNOT: A General Neural Operator Transformer for Operator Learning](https://openreview.net/forum?id=JomvpMQ6NF) <br>
 Zhongkai Hao, Zhengyi Wang, Hang Su, **Chengyang Ying**, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song <br>
