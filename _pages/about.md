@@ -25,7 +25,8 @@ SCIENCE CHINA Information Sciences **(SCIS)**, 2024 <br>
 
 * Fourier Controller Networks for Real-Time Decision-Making in Embodied Learning <br>
 Hengkai Tan, Songming Liu, Kai Ma, **Chengyang Ying**, Xingxing Zhang, Hang Su, Jun Zhu <br>
-International Conference on Machine Learning **(ICML)**, Vienna, Austria, 2024 <br> 
+International Conference on Machine Learning **(ICML)**, Vienna, Austria, 2024 <br>
+[\[homepage\]](https://thkkk.github.io/fcnet) [\[arXiv\]](https://arxiv.org/pdf/2405.19885)
 
 * DPOT: Auto-Regressive Denoising Operator Transformer for Large-Scale PDE Pre-Training <br>
 Zhongkai Hao, Chang Su, Songming Liu, Julius Berner, **Chengyang Ying**, Hang Su, Anima Anandkumar, Jian Song, Jun Zhu <br>
