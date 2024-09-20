@@ -26,7 +26,7 @@ SCIENCE CHINA Information Sciences **(SCIS)**, 2024 <br>
 * Fourier Controller Networks for Real-Time Decision-Making in Embodied Learning <br>
 Hengkai Tan, Songming Liu, Kai Ma, **Chengyang Ying**, Xingxing Zhang, Hang Su, Jun Zhu <br>
 International Conference on Machine Learning **(ICML)**, Vienna, Austria, 2024 <br>
-[\[homepage\]](https://thkkk.github.io/fcnet) [\[arXiv\]](https://arxiv.org/pdf/2405.19885)
+[\[project page\]](https://thkkk.github.io/fcnet) [\[arXiv\]](https://arxiv.org/pdf/2405.19885)
 
 * DPOT: Auto-Regressive Denoising Operator Transformer for Large-Scale PDE Pre-Training <br>
 Zhongkai Hao, Chang Su, Songming Liu, Julius Berner, **Chengyang Ying**, Hang Su, Anima Anandkumar, Jian Song, Jun Zhu <br>
@@ -83,7 +83,7 @@ Worshop Papers & Preprints
 ======
 * PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
-[\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
+[\[project page\]](https://yingchengyang.github.io/ceurl) [\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
 
 * Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
