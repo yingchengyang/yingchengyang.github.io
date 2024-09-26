@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m Chengyang Ying, a third-year Ph.D. student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in the [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and A/Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning**, **Embodied AI**, and **AI for science**. 
+I’m Chengyang Ying, a fourth-year Ph.D. student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in the [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and A/Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning**, **Embodied AI**, and **AI for science**. 
 
 Before that, I obtained my Bachelor of Science degree from the [Department of Mathematical Sciences](https://math.tsinghua.edu.cn/) of [Tsinghua University](https://www.tsinghua.edu.cn/) in July 2021, majored in **Mathematics** and minored in **Computer Application**.
 
@@ -18,6 +18,11 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
+* PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning <br>
+**Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
+Conference on Neural Information Processing Systems **(NeurIPS)**, Vancouver, Canada, 2024. <br>
+[\[project page\]](https://yingchengyang.github.io/ceurl) [\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
+
 * [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://link.springer.com/article/10.1007/s11432-021-3688-y) <br>
 You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
 SCIENCE CHINA Information Sciences **(SCIS)**, 2024 <br>
@@ -81,10 +86,6 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
-* PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning <br>
-**Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
-[\[project page\]](https://yingchengyang.github.io/ceurl) [\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
-
 * Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
 [\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
@@ -116,7 +117,7 @@ Projects
 
 Services
 ======
-Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, 2024, ICLR 2024, CVPR 2024, IJCAI 2024, TCSVT
+Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, 2024, ICLR 2024, 2025, IJCAI 2024, AAAI 2025, CVPR 2024, TCSVT
 
 <!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
 
@@ -135,6 +136,7 @@ Selected Awards
 
 Teaching
 ======
+* 2024 Fall, TA in Advanced Machine Learning, instructed by Prof. Jie Tang and Prof. Jun Zhu
 * 2022 Spring, TA in Deep Learning, instructed by A/Prof. Xiaolin Hu and Prof. Jun Zhu
 * 2022 Spring, TA in Statistical Machine Learning, instructed by Prof. Jun Zhu
 * 2021 Spring & 2021 Fall & 2023 Spring & 2024 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
@@ -151,4 +153,4 @@ Reading group slides:
 
  
 ***
-Last update: May 2024 by Chengyang Ying
+Last update: September 2024 by Chengyang Ying
