@@ -20,7 +20,7 @@ Publications
 ======
 * PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
-Annual Conference on Neural Information Processing Systems **(NeurIPS)**, Vancouver, Canada, 2024. <br>
+Annual Conference on Neural Information Processing Systems **(NeurIPS)**, Vancouver, Canada, 2024 <br>
 [\[project page\]](https://yingchengyang.github.io/ceurl) [\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
 
 * [Fourier Controller Networks for Real-Time Decision-Making in Embodied Learning](https://openreview.net/forum?id=nDps3Q8j2l) <br>
@@ -55,7 +55,7 @@ International Conference on Machine Learning **(ICML)**, Hawaii, USA, 2023 <br>
 
 * [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://www.sciencedirect.com/science/article/pii/S0167865523000661) <br>
 **Chengyang Ying<sup>&lowast;</sup>**, You Qiaoben<sup>&lowast;</sup>, Xinning Zhou<sup>&lowast;</sup>, Hang Su, Wenbo Ding, Jianyong Ai <br>
-Pattern Recognition Letters **(PRL)**, 2023<br>
+Pattern Recognition Letters **(PRL)**, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2206.05751.pdf) [\[code\]](https://github.com/yingchengyang/Consistent-Attack)
 
 * [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://openreview.net/forum?id=42zs3qa2kpy) <br>
@@ -70,17 +70,17 @@ International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda,
 
 * [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs](https://openreview.net/forum?id=GNt5ntEGjD3) <br>
 Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Ze Cheng <br>
-Annual Conference on Neural Information Processing Systems **(NeurIPS)**, New Orleans, USA, 2022. <br>
+Annual Conference on Neural Information Processing Systems **(NeurIPS)**, New Orleans, USA, 2022 <br>
 [\[pdf\]](https://openreview.net/pdf?id=GNt5ntEGjD3) [\[arXiv\]](https://arxiv.org/pdf/2210.03526.pdf) [\[code\]](https://github.com/csuastt/hardconstraint)
 
 * [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing](https://proceedings.mlr.press/v162/hao22c) <br>
 Zhongkai Hao, **Chengyang Ying**, Yinpeng Dong, Hang Su, Jian Song, Jun Zhu <br>
-International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022. <br>
+International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022 <br>
 [\[pdf\]](https://proceedings.mlr.press/v162/hao22c/hao22c.pdf) [\[arXiv\]](https://arxiv.org/pdf/2206.04310.pdf)
 
 * [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk](https://www.ijcai.org/proceedings/2022/0510) <br>
 **Chengyang Ying**, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, Jun Zhu <br>
-International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, Austria, 2022. <br>
+International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, Austria, 2022 <br>
 [\[pdf\]](https://www.ijcai.org/proceedings/2022/0510.pdf) [\[arXiv\]](https://arxiv.org/pdf/2206.04436.pdf) [\[code\]](https://github.com/yingchengyang/CPPO) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/CVaR_safe_RL/CVaR_Safe_RL.pdf) [\[ICML 2021 AML Workshop\]](https://openreview.net/forum?id=igA6MDRISO1)
 
 
