@@ -21,7 +21,7 @@ Publications
 * PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
 Annual Conference on Neural Information Processing Systems **(NeurIPS)**, Vancouver, Canada, 2024 <br>
-[\[project page\]](https://yingchengyang.github.io/ceurl) [\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
+[\[project page\]](https://yingchengyang.github.io/ceurl) [\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[code\]](https://github.com/thu-ml/CEURL) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
 
 * [Fourier Controller Networks for Real-Time Decision-Making in Embodied Learning](https://openreview.net/forum?id=nDps3Q8j2l) <br>
 Hengkai Tan, Songming Liu, Kai Ma, **Chengyang Ying**, Xingxing Zhang, Hang Su, Jun Zhu <br>
