@@ -41,17 +41,17 @@ SCIENCE CHINA Information Sciences **(SCIS)**, 2024 <br>
 * [On the Reuse Bias in Off-Policy Reinforcement Learning](https://www.ijcai.org/proceedings/2023/0502) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Macao, China, 2023 <br>
-[\[pdf\]](https://www.ijcai.org/proceedings/2023/0502.pdf) [\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf) [\[code\]](https://github.com/yingchengyang/BIRIS) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/Reuse_Bias/reuse_bias.pdf)
+[\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf) [\[code\]](https://github.com/yingchengyang/BIRIS) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/Reuse_Bias/reuse_bias.pdf)
 
 * [GNOT: A General Neural Operator Transformer for Operator Learning](https://openreview.net/forum?id=JomvpMQ6NF) <br>
 Zhongkai Hao, Zhengyi Wang, Hang Su, **Chengyang Ying**, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song <br>
 International Conference on Machine Learning **(ICML)**, Hawaii, USA, 2023 <br>
-[\[pdf\]](https://openreview.net/pdf?id=JomvpMQ6NF) [\[arXiv\]](https://arxiv.org/pdf/2302.14376.pdf) [\[code\]](https://github.com/HaoZhongkai/GNOT)
+[\[arXiv\]](https://arxiv.org/pdf/2302.14376.pdf) [\[code\]](https://github.com/HaoZhongkai/GNOT)
 
 * [NUNO: A General Framework for Learning Parametric PDEs with Non-Uniform Data](https://openreview.net/forum?id=KobAWlZL29) <br>
 Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Ze Cheng, Jun Zhu <br>
 International Conference on Machine Learning **(ICML)**, Hawaii, USA, 2023 <br>
-[\[pdf\]](https://openreview.net/pdf?id=KobAWlZL29) [\[arXiv\]](https://arxiv.org/pdf/2305.18694.pdf) [\[code\]](https://github.com/thu-ml/NUNO)
+[\[arXiv\]](https://arxiv.org/pdf/2305.18694.pdf) [\[code\]](https://github.com/thu-ml/NUNO)
 
 * [Consistent Attack: Universal Adversarial Perturbation on Embodied Vision Navigation](https://www.sciencedirect.com/science/article/pii/S0167865523000661) <br>
 **Chengyang Ying<sup>&lowast;</sup>**, You Qiaoben<sup>&lowast;</sup>, Xinning Zhou<sup>&lowast;</sup>, Hang Su, Wenbo Ding, Jianyong Ai <br>
@@ -61,27 +61,27 @@ Pattern Recognition Letters **(PRL)**, 2023 <br>
 * [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://openreview.net/forum?id=42zs3qa2kpy) <br>
 Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
-[\[pdf\]](https://openreview.net/pdf?id=42zs3qa2kpy) [\[arXiv\]](https://arxiv.org/pdf/2209.14548.pdf) [\[code\]](https://github.com/ChenDRAG/SfBC)
+[\[arXiv\]](https://arxiv.org/pdf/2209.14548.pdf) [\[code\]](https://github.com/ChenDRAG/SfBC)
 
 * [Bi-level Physics-Informed Neural Networks for PDE Constrained Optimization using Broyden's Hypergradients](https://openreview.net/forum?id=kkpL4zUXtiw) <br>
 Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
-[\[pdf\]](https://openreview.net/pdf?id=kkpL4zUXtiw) [\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf) [\[code\]](https://github.com/HaoZhongkai/Bi-level-PINN)
+[\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf) [\[code\]](https://github.com/HaoZhongkai/Bi-level-PINN)
 
 * [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs](https://openreview.net/forum?id=GNt5ntEGjD3) <br>
 Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Ze Cheng <br>
 Annual Conference on Neural Information Processing Systems **(NeurIPS)**, New Orleans, USA, 2022 <br>
-[\[pdf\]](https://openreview.net/pdf?id=GNt5ntEGjD3) [\[arXiv\]](https://arxiv.org/pdf/2210.03526.pdf) [\[code\]](https://github.com/csuastt/hardconstraint)
+[\[arXiv\]](https://arxiv.org/pdf/2210.03526.pdf) [\[code\]](https://github.com/csuastt/hardconstraint)
 
 * [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing](https://proceedings.mlr.press/v162/hao22c) <br>
 Zhongkai Hao, **Chengyang Ying**, Yinpeng Dong, Hang Su, Jian Song, Jun Zhu <br>
 International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022 <br>
-[\[pdf\]](https://proceedings.mlr.press/v162/hao22c/hao22c.pdf) [\[arXiv\]](https://arxiv.org/pdf/2206.04310.pdf)
+[\[arXiv\]](https://arxiv.org/pdf/2206.04310.pdf)
 
 * [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk](https://www.ijcai.org/proceedings/2022/0510) <br>
 **Chengyang Ying**, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, Austria, 2022 <br>
-[\[pdf\]](https://www.ijcai.org/proceedings/2022/0510.pdf) [\[arXiv\]](https://arxiv.org/pdf/2206.04436.pdf) [\[code\]](https://github.com/yingchengyang/CPPO) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/CVaR_safe_RL/CVaR_Safe_RL.pdf) [\[ICML 2021 AML Workshop\]](https://openreview.net/forum?id=igA6MDRISO1)
+[\[arXiv\]](https://arxiv.org/pdf/2206.04436.pdf) [\[code\]](https://github.com/yingchengyang/CPPO) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/CVaR_safe_RL/CVaR_Safe_RL.pdf) [\[ICML 2021 AML Workshop\]](https://openreview.net/forum?id=igA6MDRISO1)
 
 
 Worshop Papers & Preprints
@@ -117,7 +117,7 @@ Projects
 
 Services
 ======
-Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, 2024, ICLR 2024, 2025, IJCAI 2024, AAAI 2025, CVPR 2024, TCSVT
+Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, 2024, ICLR 2024, 2025, IJCAI 2024, AAAI 2025, AISTATS 2025, CVPR 2024, TCSVT
 
 <!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
 
