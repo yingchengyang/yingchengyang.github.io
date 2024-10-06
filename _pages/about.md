@@ -12,7 +12,7 @@ I’m Chengyang Ying, a fourth-year Ph.D. student of [TSAIL Group](https://ml.cs
 
 Before that, I obtained my Bachelor of Science degree from the [Department of Mathematical Sciences](https://math.tsinghua.edu.cn/) of [Tsinghua University](https://www.tsinghua.edu.cn/) in July 2021, majored in **Mathematics** and minored in **Computer Application**.
 
-My curriculum vitae is [here](https://yingchengyang.github.io/files/CV_20241006.pdf).
+My curriculum vitae is [here](https://yingchengyang.github.io/files/CV.pdf).
 
 Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
