@@ -12,6 +12,8 @@ I’m Chengyang Ying, a fourth-year Ph.D. student of [TSAIL Group](https://ml.cs
 
 Before that, I obtained my Bachelor of Science degree from the [Department of Mathematical Sciences](https://math.tsinghua.edu.cn/) of [Tsinghua University](https://www.tsinghua.edu.cn/) in July 2021, majored in **Mathematics** and minored in **Computer Application**.
 
+My curriculum vitae is [here](https://yingchengyang.github.io/files/CV_20241006.pdf).
+
 Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 [Paper reading list of part recent research on Single Agent RL](https://github.com/yingchengyang/Reinforcement-Learning-Papers)
@@ -20,7 +22,7 @@ Publications
 ======
 * PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
-Annual Conference on Neural Information Processing Systems **(NeurIPS)**, Vancouver, Canada, 2024 <br>
+Neural Information Processing Systems **(NeurIPS)**, Vancouver, Canada, 2024 <br>
 [\[project page\]](https://yingchengyang.github.io/ceurl) [\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[code\]](https://github.com/thu-ml/CEURL) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
 
 * [Fourier Controller Networks for Real-Time Decision-Making in Embodied Learning](https://openreview.net/forum?id=nDps3Q8j2l) <br>
@@ -70,7 +72,7 @@ International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda,
 
 * [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs](https://openreview.net/forum?id=GNt5ntEGjD3) <br>
 Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Ze Cheng <br>
-Annual Conference on Neural Information Processing Systems **(NeurIPS)**, New Orleans, USA, 2022 <br>
+Neural Information Processing Systems **(NeurIPS)**, New Orleans, USA, 2022 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2210.03526.pdf) [\[code\]](https://github.com/csuastt/hardconstraint)
 
 * [GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing](https://proceedings.mlr.press/v162/hao22c) <br>
@@ -117,7 +119,7 @@ Projects
 
 Services
 ======
-Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, 2024, ICLR 2024, 2025, IJCAI 2024, AAAI 2025, AISTATS 2025, CVPR 2024, TCSVT
+Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, 2024, ICLR 2024, 2025, IJCAI 2024, AAAI 2025, CVPR 2024, AISTATS 2025, TCSVT
 
 <!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
 
