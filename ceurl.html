@@ -90,24 +90,25 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">PEAC: Unsupervised Pre-training for<br> Cross-Embodiment Reinforcement Learning</h1>
           <div class="is-size-5 publication-authors">
+            <span class="author-block"> 
+              <!-- <sup>1</sup> -->
+              <a href="https://yingchengyang.github.io/">Chengyang Ying</a>,</span>
             <span class="author-block">
-              <a href="https://yingchengyang.github.io/">Chengyang Ying</a><sup>1</sup>,</span>
+              <a href="https://haozhongkai.github.io/">Zhongkai Hao</a>,</span>
             <span class="author-block">
-              <a href="https://haozhongkai.github.io/">Zhongkai Hao</a><sup>1</sup>,</span>
+              <a href="https://coderlemon17.github.io/">Xinning Zhou</a>,</span>
             <span class="author-block">
-              <a href="https://coderlemon17.github.io/">Xinning Zhou</a><sup>1</sup>,</span>
+              <a href="https://github.com/xuxuezhou">Xuezhou Xu</a>,</span>
             <span class="author-block">
-              <a href="https://github.com/xuxuezhou">Xuezhou Xu</a><sup>1</sup>,</span>
+              <a href="https://www.suhangss.me/">Hang Su</a>,</span>
             <span class="author-block">
-              <a href="https://www.suhangss.me/">Hang Su</a><sup>1</sup>,</span>
+              <a href="https://indussky8.github.io/">Xingxing Zhang</a>,</span>
             <span class="author-block">
-              <a href="https://indussky8.github.io/">Xingxing Zhang</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a><sup>1</sup></span>
+              <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a></span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Tsinghua University</span>
+            <span class="author-block">Tsinghua University</span>
             <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
           </div>
 
@@ -216,33 +217,14 @@
           <p>
             Designing generalizable agents capable of adapting to diverse embodiments has achieved significant attention in Reinforcement Learning (RL), which is critical for deploying RL agents in various real-world applications. Previous Cross-Embodiment RL approaches have focused on transferring knowledge across embodiments within specific tasks. These methods often result in knowledge tightly coupled with those tasks and fail to adequately capture the distinct characteristics of different embodiments. To address this limitation, we introduce the notion of Cross-Embodiment Unsupervised RL (<b>CEURL</b>), which leverages unsupervised learning to enable agents to acquire embodiment-aware and task-agnostic knowledge through online interactions within reward-free environments. We formulate CEURL as a novel Controlled Embodiment Markov Decision Process (CE-MDP) and systematically analyze CEURL's pre-training objectives under CE-MDP. Based on these analyses, we develop a novel algorithm Pre-trained Embodiment-Aware Control (<b>PEAC</b>) for handling CEURL, incorporating an intrinsic reward function specifically designed for cross-embodiment pre-training. PEAC not only provides an intuitive optimization strategy for cross-embodiment pre-training but also can integrate flexibly with existing unsupervised RL methods, facilitating cross-embodiment exploration and skill discovery. Extensive experiments in both simulated (e.g., DMC and Robosuite) and real-world environments (e.g., legged locomotion) demonstrate that PEAC significantly improves adaptation performance and cross-embodiment generalization, demonstrating its effectiveness in overcoming the unique challenges of CEURL.
           </p>
-          <!-- <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
-          </p> -->
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
+
+    <img src="./static/ceurl/Overview.png" alt="inference_page">
+    <p><strong>Figure 1</strong>
+      <b>Overview of Cross-Embodiment Unsupervised Reinforcement Learning (CEURL).</b> The left subfigure illustrates the cross-embodiment setting with various possible embodiment changes. Directly training RL agents across embodiments under given tasks may result in task-aware rather than embodiment-aware knowledge. CEURL pre-trains agents in reward-free environments to extract embodiment-aware knowledge. The center subfigure shows the Pre-trained Embodiment-Aware Control (PEAC) algorithm, using our cross-embodiment intrinsic reward function. The right subfigure demonstrates the fine-tuning phase, where pre-trained agents fast adapt to different downstream tasks, improving adaptation and generalization.</p>
 
     <!-- Paper video. -->
     <!-- <div class="columns is-centered has-text-centered">
