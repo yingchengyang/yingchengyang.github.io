@@ -20,7 +20,7 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 Publications
 ======
-* PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning <br>
+* [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://openreview.net/forum?id=LyAFfdx8YF) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
 Neural Information Processing Systems **(NeurIPS)**, Vancouver, Canada, 2024 <br>
 [\[project page\]](https://yingchengyang.github.io/ceurl) [\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[code\]](https://github.com/thu-ml/CEURL) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
@@ -119,7 +119,7 @@ Projects
 
 Services
 ======
-Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, 2024, ICLR 2024, 2025, IJCAI 2024, AAAI 2025, CVPR 2024, AISTATS 2025, TCSVT
+Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, 2024, ICLR 2024, 2025, IJCAI 2024, AAAI 2025, CVPR 2024, 2025, AISTATS 2025, ISIT 2024, TCSVT
 
 <!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
 
