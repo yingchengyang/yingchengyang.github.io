@@ -240,7 +240,7 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Theoretical Analyses</h2>
+        <h2 class="title is-3">Method</h2>
         <div class="content has-text-justified">
     <p>We first formulate CEURL as the following CEMDP</p>
     <img src="./static/ceurl/CEMDP.png" alt="inference_page">
@@ -254,7 +254,7 @@
     <p>Then our PEAC will train an embodiment discriminator and utilize it to calculate the cross-embodiment intrinsic reward for pre-training. We also provide how to combine PEAC with existing exploration methods or skill discovery methods to achieve cross-embodiment exploration or cross-embodiment skill discovery respectively.</p>
 </section>
 
-<hr>
+<!-- <hr> -->
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -265,24 +265,24 @@
         <p>We consider extensive experimental setting, including different embodiment changings, ranging from simulation to real-world, state-based input to image-based input, locomotion tasks to manipution tasks.        </p>
         <img src="./static/ceurl/experimental_setup.png" alt="inference_page">
         <br>
+        <div style="text-align: center;">
+          <h3 class="title is-4">Simulation Results</h3>
+          <img src="./static/ceurl/state-DMC.png" alt="inference_page">
+          <p><b>Results in state-based DMC.</b></p>
+          <br>
+          <img src="./static/ceurl/image-DMC.png" alt="inference_page">
+          <p><b>Results in image-based DMC.</b></p>
+          <br>
+          <img src="./static/ceurl/tsne.png" alt="inference_page">
+          <p><b>Visualization via t-SNE of the pre-trained model generalization to unseen embodiments.</b></p>
+          <br>
 
-        <h3 class="title is-4">Simulation Results</h3>
-        <!-- <div class="content has-text-justified"> -->
-        <img src="./static/ceurl/state-DMC.png" alt="inference_page">
-        <p><b>Results in state-based DMC.</b></p>
-        <br>
-        <img src="./static/ceurl/image-DMC.png" alt="inference_page">
-        <p><b>Results in image-based DMC.</b></p>
-        <br>
-        <img src="./static/ceurl/tsne.png" alt="inference_page">
-        <p><b>Visualization via t-SNE of the pre-trained model generalization to unseen embodiments.</b></p>
-        <br>
-
-        <h3 class="title is-4">Real-world legged locomotion video</h3>
-        <div class="publication-video">
-          <video controls style="max-width: 100%; height: auto;">
-            <source src="./static/ceurl/video.mp4" type="video/mp4">
-          </video>
+          <h3 class="title is-4">Real-world legged locomotion video</h3>
+          <div class="publication-video">
+            <video controls style="max-width: 100%; height: auto;">
+              <source src="./static/ceurl/video.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
       </div>
     </div>
