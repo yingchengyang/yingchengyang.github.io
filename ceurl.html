@@ -230,9 +230,24 @@
         <h2 class="title is-3">CEURL Overview</h2>
         <div class="content has-text-justified">
     <img src="./static/ceurl/Overview.png" alt="inference_page">
-    <p>The left subfigure illustrates the cross-embodiment setting with various possible embodiment changes. Directly training RL agents across embodiments under given tasks may result in task-aware rather than embodiment-aware knowledge. CEURL pre-trains agents in reward-free environments to extract embodiment-aware knowledge. The center subfigure shows the Pre-trained Embodiment-Aware Control (PEAC) algorithm, using our cross-embodiment intrinsic reward function. The right subfigure demonstrates the fine-tuning phase, where pre-trained agents fast adapt to different downstream tasks, improving adaptation and generalization.</p>
+    <p>The left subfigure illustrates the cross-embodiment setting with various possible embodiment changes. Directly training RL agents across embodiments under given tasks may result in task-aware rather than embodiment-aware knowledge. <b>CEURL pre-trains agents in reward-free environments to extract embodiment-aware knowledge</b>. The center subfigure shows the Pre-trained Embodiment-Aware Control (PEAC) algorithm, using our cross-embodiment intrinsic reward function. The right subfigure demonstrates the fine-tuning phase, where pre-trained agents fast adapt to different downstream tasks, improving adaptation and generalization.</p>
     <!-- <p><strong>Figure 1</strong>
       <b>Overview of Cross-Embodiment Unsupervised Reinforcement Learning (CEURL).</b> The left subfigure illustrates the cross-embodiment setting with various possible embodiment changes. Directly training RL agents across embodiments under given tasks may result in task-aware rather than embodiment-aware knowledge. CEURL pre-trains agents in reward-free environments to extract embodiment-aware knowledge. The center subfigure shows the Pre-trained Embodiment-Aware Control (PEAC) algorithm, using our cross-embodiment intrinsic reward function. The right subfigure demonstrates the fine-tuning phase, where pre-trained agents fast adapt to different downstream tasks, improving adaptation and generalization.</p> -->
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Theoretical Analyses</h2>
+        <div class="content has-text-justified">
+    <p>We first formulate CEURL as the following CEMDP</p>
+    <img src="./static/ceurl/CEMDP.png" alt="inference_page">
+    <p>Then we analyze the cross-embodiment the fine-tuning objective &#x1D4D5; and the pre-training objective &#x1D4E4;, of which the main principles are that <b>the pre-trained agent can control the distribution of embodiments to adapt any downtream tasks with limited timesteps</b>.</p>
+    <img src="./static/ceurl/CE-finetune.png" alt="inference_page">
+    <img src="./static/ceurl/CE-pretrain.png" alt="inference_page">
+    Although the pre-training objective is 
 </section>
 
 <hr>
