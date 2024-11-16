@@ -247,10 +247,22 @@
     <p>Then we analyze the cross-embodiment the fine-tuning objective &#x1D4D5; and the pre-training objective &#x1D4E4;, of which the main principles are that <b>the pre-trained agent can control the distribution of embodiments to adapt any downtream tasks with limited timesteps</b>.</p>
     <img src="./static/ceurl/CE-finetune.png" alt="inference_page">
     <img src="./static/ceurl/CE-pretrain.png" alt="inference_page">
-    Although the pre-training objective is 
+    <p>Although the pre-training objective is complicated min-max problem, we can simplify it as below</p>
+    <img src="./static/ceurl/min-max.png" alt="inference_page">
+    <p>The simplified objective can be further estimated by our cross-embodiment intrinsic rewar</p> 
+    <img src="./static/ceurl/CE-reward.png" alt="inference_page">
 </section>
 
 <hr>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experiments</h2>
+        <div class="content has-text-justified">
+</section>
 
 <section>
   <!-- Paper video. -->
