@@ -249,8 +249,9 @@
     <img src="./static/ceurl/CE-pretrain.png" alt="inference_page">
     <p>Although the pre-training objective is complicated min-max problem, we can simplify it as below</p>
     <img src="./static/ceurl/min-max.png" alt="inference_page">
-    <p>The simplified objective can be further estimated by our cross-embodiment intrinsic rewar</p> 
+    <p>The simplified objective can be further estimated by our cross-embodiment intrinsic reward</p> 
     <img src="./static/ceurl/CE-reward.png" alt="inference_page">
+    <p>Then our PEAC will train an embodiment discriminator and utilize it to calculate the cross-embodiment intrinsic reward for pre-training. We also provide how to combine PEAC with existing exploration methods or skill discovery methods to achieve cross-embodiment exploration or cross-embodiment skill discovery respectively.</p>
 </section>
 
 <hr>
@@ -261,9 +262,9 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Experiments</h2>
+        <div class="content has-text-justified">
         <p>We consider extensive experimental setting, including different embodiment changings, ranging from simulation to real-world, state-based input to image-based input, locomotion tasks to manipution tasks.        </p>
         <img src="./static/ceurl/experimental_setup.png" alt="inference_page">
-        <div class="content has-text-justified">
 </section>
 
 <section>
