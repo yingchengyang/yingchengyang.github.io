@@ -88,6 +88,10 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
+* Exploratory Diffusion Policy for Unsupervised Reinforcement Learning <br>
+**Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
+[\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
+
 * Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
 [\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
@@ -99,11 +103,6 @@ Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, 
 * [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/forum?id=FSD_8Sglf_u) <br>
 You Qiaoben, Xinning Zhou, **Chengyang Ying**, Jun Zhu <br>
 ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
-
-<!-- * [Towards Safe Reinforcement Learning via Constraining Conditional Value at Risk](https://openreview.net/forum?id=igA6MDRISO1) <br>
-**Chengyang Ying**, Xinning Zhou, Dong Yan, Jun Zhu <br>
-ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
-[\[pdf\]](https://openreview.net/pdf?id=igA6MDRISO1) -->
 
 
 <!-- Manuscripts
@@ -119,7 +118,7 @@ Projects
 
 Services
 ======
-Reviewer for ICML 2022, 2024, NeurIPS 2022, 2023, 2024, ICLR 2024, 2025, IJCAI 2024, AAAI 2025, CVPR 2024, 2025, AISTATS 2025, ISIT 2024, TCSVT
+Reviewer for ICML 2022, 2024, 2025, NeurIPS 2022, 2023, 2024, ICLR 2024, 2025, IJCAI 2024, 2025, AAAI 2025, CVPR 2024, 2025, AISTATS 2025, ISIT 2024, TCSVT
 
 <!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
 
@@ -141,7 +140,7 @@ Teaching
 * 2024 Fall, TA in Advanced Machine Learning, instructed by Prof. Jie Tang and Prof. Jun Zhu
 * 2022 Spring, TA in Deep Learning, instructed by A/Prof. Xiaolin Hu and Prof. Jun Zhu
 * 2022 Spring, TA in Statistical Machine Learning, instructed by Prof. Jun Zhu
-* 2021 Spring & 2021 Fall & 2023 Spring & 2024 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
+* 2021 Spring & 2021 Fall & 2023 Spring & 2024 Spring & 2025 Spring, TA in Discrete mathematics for Computer Science, instructed by A/Prof. Hang Su
 
 Miscellaneous
 ======
@@ -155,4 +154,4 @@ Reading group slides:
 
  
 ***
-Last update: September 2024 by Chengyang Ying
+Last update: Febrary 2025 by Chengyang Ying
