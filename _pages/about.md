@@ -93,7 +93,7 @@ Worshop Papers & Preprints
 [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
 
 * Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
-**Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
+**Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
 [\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
 
 * Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications <br>
