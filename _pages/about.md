@@ -18,6 +18,8 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 [Paper reading list of part recent research on Single Agent RL](https://github.com/yingchengyang/Reinforcement-Learning-Papers)
 
+[Blog: A Useful Lemma for Several RL Results](https://yingchengyang.github.io/posts/2025-02-15-bellman-lemma/)
+
 Publications
 ======
 * [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://openreview.net/forum?id=LyAFfdx8YF) <br>
