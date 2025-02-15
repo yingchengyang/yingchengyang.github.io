@@ -116,13 +116,13 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block"> 
               <!-- <sup>1</sup> -->
-              <a href="https://yingchengyang.github.io/">Chengyang Ying</a>,</span>
+              <a href="https://yingchengyang.github.io/">Chengyang Ying</a></span>
           </div>
 
-          <div class="is-size-5 publication-authors">
+          <!-- <div class="is-size-5 publication-authors">
             <span class="author-block">Tsinghua University</span>
-            <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
-          </div>
+            <span class="author-block"><sup>2</sup>Google Research</span>
+          </div> -->
 
           <div class="column has-text-centered">
             <div class="publication-links">
@@ -207,7 +207,7 @@
         \mathbb{E}_{s\sim\rho_0} \left[f(s)\right] = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \left[g(s)\right].
     \end{equation}
     $$
-    为了便于阅读，我们先看看这个引理的具体应用，然后再给出这个引理的证明(第5小节)。
+    为了便于阅读，我们先看看这个引理的具体应用，然后再给出这个引理的证明 (第5小节)。
    </p>
 </section>
 
@@ -472,7 +472,7 @@
     <p>
       最后，我们给出$J_{\mathcal{M}'}(\pi') - J_{\mathcal{M}}(\pi)$的一些上界分析。<br>
 
-      当$\mathcal{M}'=\mathcal{M}$时，基于式子~\ref{eq_same_mdp}中的$(*)$，我们记$r^* = \max_{s,a} |\mathcal{R}(s,a)|$, $D_{\mathbf{TD}}(\pi,\pi')(s) = \frac{1}{2}\int |\pi'(a|s) - \pi(a|s)|da, \hat{V}_{\mathcal{M},\pi} = \max_s V_{\mathcal{M},\pi}(s) - \min_s V_{\mathcal{M},\pi}(s)$, $\bar{V}_{\mathcal{M},\pi} = \frac{1}{2}(\max_s V_{\mathcal{M},\pi}(s) + \min_s V_{\mathcal{M},\pi}(s))$,
+      当$\mathcal{M}'=\mathcal{M}$时，基于第三小节中的$(*)$式，我们记$r^* = \max_{s,a} |\mathcal{R}(s,a)|$, $D_{\mathbf{TD}}(\pi,\pi')(s) = \frac{1}{2}\int |\pi'(a|s) - \pi(a|s)|da, \hat{V}_{\mathcal{M},\pi} = \max_s V_{\mathcal{M},\pi}(s) - \min_s V_{\mathcal{M},\pi}(s)$, $\bar{V}_{\mathcal{M},\pi} = \frac{1}{2}(\max_s V_{\mathcal{M},\pi}(s) + \min_s V_{\mathcal{M},\pi}(s))$,
       $$
       \begin{equation}
       \begin{split}
@@ -490,7 +490,7 @@
       \end{split}
       \end{equation}
       $$
-      这里式子$(*1)$即文章[5]中的定理2，式子$(*2)$即文章~\cite{zhang2020robust}中的定理5.
+      这里式子$(*1)$即文章[5]中的定理2，式子$(*2)$即文章[6]中的定理5.<br>
       
       另一种特殊情况是我们假设两个MDP只有奖励函数相同，即只有$\mathcal{R}'=\mathcal{R}$而$\mathcal{P}'\neq \mathcal{P}$，此时
       $$
@@ -512,7 +512,7 @@
       \end{split}
       \end{equation}
       $$
-      这就是MBPO~\cite{janner2019trust}中的引理3。
+      这就是MBPO [7]中的引理3。
    </p>
 </section>
 
