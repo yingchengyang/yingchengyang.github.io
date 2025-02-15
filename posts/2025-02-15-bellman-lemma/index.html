@@ -476,19 +476,114 @@
    </p>
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+    <h2 class="title is-3">5. 引理的证明</h2>
+    <div class="content has-text-justified">
+    <p>
+      在这一小节，我们给出这个引理的证明~\cite{ying2022towards}
+      首先我们有
+      $$
+      \begin{equation}
+      \begin{split}
+          \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [f(s)] =& \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)] + \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \left[ \gamma\int \pi(a|s)\mathcal{P}(s'|s,a) f(s') da ds' \right] \\
+          =& \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)] + \int f(s') \left[\int  \gamma d_{\mathcal{M}}^{\pi}(s) \pi(a|s)\mathcal{P}(s'|s,a) ds da  \right] ds' \\
+          \overset{1}{=}& \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)] + \int f(s') \left[d_{\mathcal{M}}^{\pi}(s') - (1-\gamma)\rho_0(s') \right] ds' \\
+          =& \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)] + \int f(s) \left[d_{\mathcal{M}}^{\pi}(s) - (1-\gamma)\rho_0(s) \right] ds \\
+      \end{split}
+      \end{equation}
+      $$
+      这里式子1是因为
+      $$
+      \begin{equation}
+      \begin{split}
+          d_{\mathcal{M}}^{\pi}(s) - (1-\gamma)\rho_0(s)
+          = \gamma\sum_{s'}d_{\mathcal{M}}^{\pi}(s')\sum_{a}\pi(a|s')\mathcal{P}(s|s', a).
+      \end{split}
+      \end{equation}
+      $$
+      因此我们可以得到
+      $$
+      \begin{equation}
+      \begin{split}
+          \int f(s)  (1-\gamma)\rho_0(s)  ds = \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)].
+      \end{split}
+      \end{equation}
+      即$\mathbb{E}_{s\sim\rho_0} \left[f(s)\right] = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \left[g(s)\right]$.
+      $$
+   </p>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+    <h2 class="title is-3">6. 第3小节中的进一步上界</h2>
+    <div class="content has-text-justified">
+    <p>
+      最后，我们给出$J_{\mathcal{M}'}(\pi') - J_{\mathcal{M}}(\pi)$的一些上界分析。<br>
+
+      当$\mathcal{M}'=\mathcal{M}$时，基于式子~\ref{eq_same_mdp}中的$(*)$，我们记$r^* = \max_{s,a} |\mathcal{R}(s,a)|$, $D_{\mathbf{TD}}(\pi,\pi')(s) = \frac{1}{2}\int |\pi'(a|s) - \pi(a|s)|da, \hat{V}_{\mathcal{M},\pi} = \max_s V_{\mathcal{M},\pi}(s) - \min_s V_{\mathcal{M},\pi}(s)$, $\bar{V}_{\mathcal{M},\pi} = \frac{1}{2}(\max_s V_{\mathcal{M},\pi}(s) + \min_s V_{\mathcal{M},\pi}(s))$,
+      $$
+      \begin{equation}
+      \begin{split}
+          g(s)
+          = & \int (\pi'(a|s) - \pi(a|s)) Q_{\pi', \mathcal{M}}(s,a) da \\
+          = & \int (\pi'(a|s) - \pi(a|s)) \mathcal{R}(s,a) da + \gamma \int (\pi'(a|s) - \pi(a|s)) \mathcal{P}(s'|s,a) V_{\pi', \mathcal{M}}(s') dads' \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  + \gamma \int (\pi'(a|s) - \pi(a|s)) \mathcal{P}(s'|s,a) V_{\pi', \mathcal{M}}(s') dads' \\
+          = & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  + \gamma \int (\pi'(a|s) - \pi(a|s)) \mathcal{P}(s'|s,a) (V_{\pi', \mathcal{M}}(s') - \bar{V}_{\mathcal{M},\pi}) dads' \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  + \gamma \int |\pi'(a|s) - \pi(a|s)| \mathcal{P}(s'|s,a) \frac{\hat{V}_{\mathcal{M},\pi}}{2} dads' \\
+          = & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  + \gamma \int |\pi'(a|s) - \pi(a|s)|  \frac{\hat{V}_{\mathcal{M},\pi}}{2} da \\
+          \overset{(*1)}{\leq} & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  +  \gamma D_{\mathbf{TD}}(\pi,\pi')(s)  \hat{V}_{\mathcal{M},\pi} \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  +  \gamma D_{\mathbf{TD}}(\pi,\pi')(s)  2\max_s|V_{\mathcal{M},\pi}(s)| \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  +  2\gamma D_{\mathbf{TD}}(\pi,\pi')(s)  \frac{1}{1-\gamma}r^* \\
+          \overset{(*2)}{=} & \left(2 + \frac{2\gamma}{1-\gamma}\right) r^* D_{\mathbf{TD}}(\pi,\pi')(s).
+      \end{split}
+      \end{equation}
+      $$
+      这里式子$(*1)$即文章~\cite{ying2022towards}中的定理2，式子$(*2)$即文章~\cite{zhang2020robust}中的定理5.
+      
+      另一种特殊情况是我们假设两个MDP只有奖励函数相同，即只有$\mathcal{R}'=\mathcal{R}$而$\mathcal{P}'\neq \mathcal{P}$，此时
+      $$
+      \begin{equation}
+      \begin{split}
+          g(s) = & V_{\pi',\mathcal{M}'}(s) - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{\pi', \mathcal{M}'}(s')\right] dads' \\
+          = & \int \left[\pi'(a|s) - \pi(a|s) \right] \mathcal{R}(s,a) da \\
+          + & \gamma \int  \left[ \pi'(a|s) \mathcal{P}'(s'|s,a)   - \pi(a|s) \mathcal{P}(s'|s,a) \right]  V_{\pi', \mathcal{M}'}(s') dads' \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \gamma \int  \left[ \pi'(a|s) \mathcal{P}'(s'|s,a)   - \pi(a|s) \mathcal{P}(s'|s,a) \right]  V_{\pi', \mathcal{M}'}(s') dads' \\
+          = & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \gamma \int  \pi'(a|s) \left[  \mathcal{P}'(s'|s,a) -  \mathcal{P}(s'|s,a) \right]  V_{\pi', \mathcal{M}'}(s') dads' \\
+          + & \gamma \int  \left[ \pi'(a|s)  - \pi(a|s)\right] \mathcal{P}(s'|s,a)   V_{\pi', \mathcal{M}'}(s') dads' \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \gamma \int  \pi'(a|s) |  \mathcal{P}'(s'|s,a) -  \mathcal{P}(s'|s,a) |  \max_{s''}| V_{\pi', \mathcal{M}'}(s'')| dads' \\
+          + & \gamma \int  | \pi'(a|s)  - \pi(a|s)| \mathcal{P}(s'|s,a)   \max_{s''}| V_{\pi', \mathcal{M}'}(s'')|  dads' \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \frac{\gamma}{1-\gamma} r^* \int  \pi'(a|s) |  \mathcal{P}'(s'|s,a) -  \mathcal{P}(s'|s,a) | dads' \\
+          + & \frac{\gamma}{1-\gamma} r^* \int  | \pi'(a|s)  - \pi(a|s)| \mathcal{P}(s'|s,a) dads' \\
+          = & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \frac{2\gamma}{1-\gamma} r^* D_{\mathbf{TD}}(\mathcal{P},\mathcal{P}')(s,a)  
+          + \frac{2\gamma}{1-\gamma} r^* D_{\mathbf{TD}}(\pi,\pi')(s) \\
+          \leq & \frac{2}{1-\gamma}r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \frac{2\gamma}{1-\gamma} r^* D_{\mathbf{TD}}(\mathcal{P},\mathcal{P}')(s,a) 
+      \end{split}
+      \end{equation}
+      $$
+      这就是MBPO~\cite{janner2019trust}中的引理3。
+   </p>
+</section>
 
 
-<section class="section" id="BibTeX">
+
+<!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{ying2024peac,
-      title={PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning},
-      author={Ying, Chengyang and Hao, Zhongkai and Zhou, Xinning and Xu, Xuezhou and Su, Hang and Zhang, Xingxing and Zhu, Jun},
-      journal={arXiv preprint arXiv:2405.14073},
-      year={2024}
-}</code></pre>
+    <pre><code>@article{weng2018PG,
+      title   = "Policy Gradient Algorithms",
+      author  = "Weng, Lilian",
+      journal = "lilianweng.github.io",
+      year    = "2018",
+      url     = "https://lilianweng.github.io/posts/2018-04-08-policy-gradient/"
+    }
+</code></pre>
   </div>
-</section>
+</section> -->
 
 <h1 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h1>
 <p>[1] Richard S Sutton, David McAllester, Satinder Singh, and Yishay Mansour. <a href="https://proceedings.neurips.cc/paper_files/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf">&ldquo;Policy gradientmethods for reinforcement learning with function approximation.&ldquo;</a> Advances in neural informationprocessing systems, 12, 1999.</p>
