@@ -232,27 +232,11 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Designing generalizable agents capable of adapting to diverse embodiments has achieved significant attention in Reinforcement Learning (RL), which is critical for deploying RL agents in various real-world applications. Previous Cross-Embodiment RL approaches have focused on transferring knowledge across embodiments within specific tasks. These methods often result in knowledge tightly coupled with those tasks and fail to adequately capture the distinct characteristics of different embodiments. To address this limitation, we introduce the notion of Cross-Embodiment Unsupervised RL (<b>CEURL</b>), which leverages unsupervised learning to enable agents to acquire embodiment-aware and task-agnostic knowledge through online interactions within reward-free environments. We formulate CEURL as a novel Controlled Embodiment Markov Decision Process (CE-MDP) and systematically analyze CEURL's pre-training objectives under CE-MDP. Based on these analyses, we develop a novel algorithm Pre-trained Embodiment-Aware Control (<b>PEAC</b>) for handling CEURL, incorporating an intrinsic reward function specifically designed for cross-embodiment pre-training. PEAC not only provides an intuitive optimization strategy for cross-embodiment pre-training but also can integrate flexibly with existing unsupervised RL methods, facilitating cross-embodiment exploration and skill discovery. Extensive experiments in both simulated (e.g., DMC and Robosuite) and real-world environments (e.g., legged locomotion) demonstrate that PEAC significantly improves adaptation performance and cross-embodiment generalization, demonstrating its effectiveness in overcoming the unique challenges of CEURL.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
-    <h2 class="title is-3">CEURL Overview</h2>
+    <h2 class="title is-3">Overview</h2>
     <div class="content has-text-justified">
-    <p>he left subfigure illustrates 强化学习里面有很多经典的理论结果，比如策略梯度定理，两个策略的累计期望奖励的差等等，这个blog介绍一个统一的工具来分析这些问题。
+    <p>强化学习里面有很多经典的理论结果，比如策略梯度定理，两个策略的累计期望奖励的差等等，这个blog介绍一个统一的工具来分析这些问题。
 
     考虑一个MDP $\mathcal{M}=(\mathcal{S},\mathcal{A},\mathcal{P}, \mathcal{R},\gamma,\rho_0)$和策略$\pi$，我们可以定义
     $$
@@ -261,7 +245,8 @@
     \end{equation}
     $$
     我们有如下引理
-    对于任意$\mathcal{S}$上的函数$f,g$，如果他们满足
+
+    <b>引理：</b>对于任意$\mathcal{S}$上的函数$f,g$，如果他们满足
     $$
     \begin{equation}
     \label{eq_bell}
@@ -275,6 +260,39 @@
         \mathbb{E}_{s\sim\rho_0} \left[f(s)\right] = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \left[g(s)\right].
     \end{equation}
     $$
+    为了便于阅读，我们先看看这个引理的具体应用，然后再给出这个引理的证明。
+   </p>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+    <h2 class="title is-3">Policy Gradient</h2>
+    <div class="content has-text-justified">
+    <p>我们取$f(s) = \nabla_{\pi} [V_{\pi,\mathcal{M}}(s)]$, 自然地，我们有
+      $$
+      \begin{equation}
+      \begin{split}
+          f(s) =& \nabla_{\pi} [V_{\pi,\mathcal{M}}(s)] = \nabla_{\pi} \left[\int \pi(a|s) Q_{\pi,\mathcal{M}}(s) ds\right] \\
+          =& \underbrace{\int Q_{\pi,\mathcal{M}}(s) \nabla_{\pi} \pi(a|s) ds}_{\mathrm{defined\ as\ } g(s)}  + \int \pi(a|s) [\nabla_{\pi}  Q_{\pi,\mathcal{M}}(s)] ds \\
+          =& g(s) + \int \pi(a|s) \nabla_{\pi} \left[\int \mathcal{R}(s,a) + \gamma \int \mathcal{P}(s'|s,a) V_{\pi,\mathcal{M}}(s') ds' da\right] ds \\
+          =& g(s) + \int \pi(a|s)  \left[ \gamma \int \mathcal{P}(s'|s,a) \nabla_{\pi} V_{\pi,\mathcal{M}}(s') ds' da\right] ds \\
+          =& g(s) + \gamma \int \pi(a|s)  \mathcal{P}(s'|s,a) \underbrace{\nabla_{\pi} V_{\pi,\mathcal{M}}(s')}_{f(s')} ds' da ds.
+      \end{split}
+      \end{equation}
+      $$
+      因此我们就可以得到
+      $$
+      \begin{equation}
+      \begin{split}
+          \nabla_{\pi} J_{\mathcal{M}}(\pi) = & \nabla_{\pi} \mathbb{E}_{s\sim\rho_0} [V_{\mathcal{M}, \pi}(s)] =  \mathbb{E}_{s\sim\rho_0} [\nabla_{\pi} V_{\mathcal{M}, \pi}(s)] =  \mathbb{E}_{s\sim\rho_0} [f(s)] \\
+          = & \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)] =\frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \int [\nabla_{\pi} \pi(a|s)] Q_{\pi,\mathcal{M}}(s) ds \\
+          = & \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}, a\sim\pi(\cdot|s)} [Q_{\pi,\mathcal{M}}(s) \nabla_{\pi} \log\pi(a|s)],
+      \end{split}
+      \end{equation}
+      $$
+      这样我们就证明了策略梯度定理（Policy Gradient）。
    </p>
 </section>
 
