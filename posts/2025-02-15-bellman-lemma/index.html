@@ -27,10 +27,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="PEAC for cross-embodiment unsupervised reinforcement learning.">
-  <meta name="keywords" content="Reinforcement Learning, Cross-embodiment, Unsupervised Pre-training">
+        content="An Useful Lemma for Several RL Results.">
+  <meta name="keywords" content="Reinforcement Learning, Policy Gradient, Max-Entropy RL">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning</title>
+  <title>An Useful Lemma for Several RL Results</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -112,23 +112,11 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">PEAC: Unsupervised Pre-training for<br> Cross-Embodiment Reinforcement Learning</h1>
+          <h1 class="title is-1 publication-title">An Useful Lemma for Several RL Results</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block"> 
               <!-- <sup>1</sup> -->
               <a href="https://yingchengyang.github.io/">Chengyang Ying</a>,</span>
-            <span class="author-block">
-              <a href="https://haozhongkai.github.io/">Zhongkai Hao</a>,</span>
-            <span class="author-block">
-              <a href="https://coderlemon17.github.io/">Xinning Zhou</a>,</span>
-            <span class="author-block">
-              <a href="https://github.com/xuxuezhou">Xuezhou Xu</a>,</span>
-            <span class="author-block">
-              <a href="https://www.suhangss.me/">Hang Su</a>,</span>
-            <span class="author-block">
-              <a href="https://indussky8.github.io/">Xingxing Zhang</a>,</span>
-            <span class="author-block">
-              <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a></span>
           </div>
 
           <div class="is-size-5 publication-authors">
@@ -136,59 +124,18 @@
             <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
           </div>
 
-          <div class="is-size-5 publication-authors">
-            <span style="font-weight: bold;">NeurIPS 2024</span>
-          </div>
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://openreview.net/forum?id=LyAFfdx8YF"
+                <a href="https://www.zhihu.com/people/ying-cheng-yang"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>Paper</span>
+                  <span>知乎</span>
                 </a>
               </span>
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2405.14073"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <!-- Video Link. -->
-              <!-- <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span> -->
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://github.com/thu-ml/CEURL"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
-              </span>
-              <!-- Dataset Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a> -->
             </div>
 
           </div>
@@ -350,7 +297,7 @@
       \end{split}
       \end{equation}
       $$
-      这就是文章[2]中的引理6.1以及TRPO[3]中的式子(2)。<br>
+      这就是文章[2]中的引理6.1以及TRPO [3]中的式子(2)。<br>
       
       同时，我们也可以基于式子$(*)$证明贪心策略的策略提升（Policy Improvement），我们有
       $$
@@ -381,7 +328,7 @@
     <h2 class="title is-3">4. Max-Entropy RL上的策略提升</h2>
     <div class="content has-text-justified">
     <p>
-      Max-Entropy RL是强化学习中一类重要的问题，包括Soft Q Learning~\cite{haarnoja2017reinforcement}，SAC等算法。这些方法主要考虑在最大化奖励的同时鼓励一定的探索，即优化目标为
+      Max-Entropy RL是强化学习中一类重要的问题，包括Soft Q Learning [4]，SAC等算法。这些方法主要考虑在最大化奖励的同时鼓励一定的探索，即优化目标为
       $$
       \begin{equation}
       \begin{split}
@@ -472,7 +419,7 @@
           F(\pi', Q'_{\pi,\mathcal{M}}, \vs) \ge F(\pi, Q'_{\pi,\mathcal{M}}, \vs).
       \end{equation}
       $$
-      这样我们就证明了Max-Entropy RL的策略提升定理（\cite{haarnoja2017reinforcement}中的定理4）。
+      这样我们就证明了Max-Entropy RL的策略提升定理（[4]中的定理4）。
    </p>
 </section>
 
@@ -483,7 +430,7 @@
     <h2 class="title is-3">5. 引理的证明</h2>
     <div class="content has-text-justified">
     <p>
-      在这一小节，我们给出这个引理的证明~\cite{ying2022towards}
+      在这一小节，我们给出这个引理的证明（这个证明和核心思路基于文章[5]
       首先我们有
       $$
       \begin{equation}
@@ -511,8 +458,8 @@
           \int f(s)  (1-\gamma)\rho_0(s)  ds = \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)].
       \end{split}
       \end{equation}
-      即$\mathbb{E}_{s\sim\rho_0} \left[f(s)\right] = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \left[g(s)\right]$.
       $$
+      即$\mathbb{E}_{s\sim\rho_0} \left[f(s)\right] = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \left[g(s)\right]$.
    </p>
 </section>
 
@@ -543,7 +490,7 @@
       \end{split}
       \end{equation}
       $$
-      这里式子$(*1)$即文章~\cite{ying2022towards}中的定理2，式子$(*2)$即文章~\cite{zhang2020robust}中的定理5.
+      这里式子$(*1)$即文章[5]中的定理2，式子$(*2)$即文章~\cite{zhang2020robust}中的定理5.
       
       另一种特殊情况是我们假设两个MDP只有奖励函数相同，即只有$\mathcal{R}'=\mathcal{R}$而$\mathcal{P}'\neq \mathcal{P}$，此时
       $$
@@ -585,10 +532,17 @@
   </div>
 </section> -->
 
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
 <h1 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h1>
 <p>[1] Richard S Sutton, David McAllester, Satinder Singh, and Yishay Mansour. <a href="https://proceedings.neurips.cc/paper_files/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf">&ldquo;Policy gradientmethods for reinforcement learning with function approximation.&ldquo;</a> Advances in neural informationprocessing systems, 12, 1999.</p>
 <p>[2] Sham Kakade and John Langford. <a href="https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/KakadeLangford-icml2002.pdf">&ldquo;Approximately optimal approximate reinforcement learning.&ldquo;In Proceedings of the Nineteenth International Conference on Machine Learning, pages 267–274,2002.</p>
-<p>[3] John Schulman, et al. <a href="https://arxiv.org/pdf/1502.05477.pdf">&ldquo;Trust region policy optimization.&rdquo;</a> ICML. 2015.</p>
+<p>[3] John Schulman, et al. <a href="https://arxiv.org/pdf/1502.05477.pdf">&ldquo;Trust region policy optimization.&rdquo;</a> In International conference on machine learning,. 2015.</p>
+<p>[4] Tuomas Haarnoja, Haoran Tang, Pieter Abbeel, and Sergey Levine. <a href="https://arxiv.org/pdf/1702.08165">&ldquo;Reinforcement learning withdeep energy-based policies.&rdquo;</a> In International conference on machine learning, pages 1352–1361.PMLR, 2017.</p>
+<p>[5] Chengyang Ying, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, and Jun Zhu. <a href="https://arxiv.org/pdf/2206.04436">&ldquo;Towards safe re-inforcement learning via constraining conditional value-at-risk.&rdquo;</a> arXiv preprint arXiv:2206.04436,2022.</p>
+<p>[6] Huan Zhang, Hongge Chen, Chaowei Xiao, Bo Li, Mingyan Liu, Duane Boning, and Cho-JuiHsieh. <a href="https://arxiv.org/pdf/2003.08938">&ldquo;Robust deep reinforcement learning against adversarial perturbations on state observations.&rdquo;</a> Advances in Neural Information Processing Systems, 33:21024–21037, 2020.</p>
+<p>[7] Michael Janner, Justin Fu, Marvin Zhang, and Sergey Levine. <a href="https://arxiv.org/pdf/1906.08253">&ldquo;When to trust your model: Model-based policy optimization.&rdquo;</a> Advances in neural information processing systems, 32, 2019.</p>
+</section>
 
 
 
