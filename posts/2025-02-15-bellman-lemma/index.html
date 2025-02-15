@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="PEAC for cross-embodiment unsupervised reinforcement learning.">
+  <meta name="keywords" content="Reinforcement Learning, Cross-embodiment, Unsupervised Pre-training">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning</title>
 
@@ -25,20 +25,20 @@
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
-  <link rel="stylesheet" href="../../static/css/bulma.min.css">
-  <link rel="stylesheet" href="../../static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="../../static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="../../static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="../../static/css/index.css">
-  <link rel="icon" href="../../static/images/favicon.svg">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="../../static/js/fontawesome.all.min.js"></script>
-  <script src="../../static/js/bulma-carousel.min.js"></script>
-  <script src="../../static/js/bulma-slider.min.js"></script>
-  <script src="../../static/js/index.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
 </head>
 <body>
 
@@ -224,15 +224,34 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">CEURL Overview</h2>
-        <div class="content has-text-justified">
-    <img src="./static/ceurl/Overview.png" alt="inference_page">
-    <p>The left subfigure illustrates the cross-embodiment setting with various possible embodiment changes. Directly training RL agents across embodiments under given tasks may result in task-aware rather than embodiment-aware knowledge. <b>CEURL pre-trains agents in reward-free environments to extract embodiment-aware knowledge</b>. The center subfigure shows the Pre-trained Embodiment-Aware Control (PEAC) algorithm, using our cross-embodiment intrinsic reward function. The right subfigure demonstrates the fine-tuning phase, where pre-trained agents fast adapt to different downstream tasks, improving adaptation and generalization.</p>
-    <!-- <p><strong>Figure 1</strong>
-      <b>Overview of Cross-Embodiment Unsupervised Reinforcement Learning (CEURL).</b> The left subfigure illustrates the cross-embodiment setting with various possible embodiment changes. Directly training RL agents across embodiments under given tasks may result in task-aware rather than embodiment-aware knowledge. CEURL pre-trains agents in reward-free environments to extract embodiment-aware knowledge. The center subfigure shows the Pre-trained Embodiment-Aware Control (PEAC) algorithm, using our cross-embodiment intrinsic reward function. The right subfigure demonstrates the fine-tuning phase, where pre-trained agents fast adapt to different downstream tasks, improving adaptation and generalization.</p> -->
+    <div class="column is-four-fifths">
+    <h2 class="title is-3">CEURL Overview</h2>
+    <div class="content has-text-justified">
+    <p>he left subfigure illustrates 强化学习里面有很多经典的理论结果，比如策略梯度定理，两个策略的累计期望奖励的差等等，这个blog介绍一个统一的工具来分析这些问题。
+
+    考虑一个MDP $\mathcal{M}=(\mathcal{S},\mathcal{A},\mathcal{P}, \mathcal{R},\gamma,\rho_0)$和策略$\pi$，我们可以定义
+    $$
+    \begin{equation}
+        d_{\mathcal{M}}^{\pi}(s) = (1-\gamma)\sum_{t=0}^{\infty} \gamma^t \mathcal{P}(s_t=s|\pi,\mathcal{M}).
+    \end{equation}
+    $$
+    我们有如下引理
+    对于任意$\mathcal{S}$上的函数$f,g$，如果他们满足
+    $$
+    \begin{equation}
+    \label{eq_bell}
+        f(s) = g(s) + \gamma\int \pi(a|s)\mathcal{P}(s'|s,a) f(s') dads',
+    \end{equation}
+    $$
+    那么我们有
+    $$
+    \begin{equation}
+    \label{eq_result}
+        \mathbb{E}_{s\sim\rho_0} \left[f(s)\right] = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \left[g(s)\right].
+    \end{equation}
+    $$
+   </p>
 </section>
 
 <section class="section">
