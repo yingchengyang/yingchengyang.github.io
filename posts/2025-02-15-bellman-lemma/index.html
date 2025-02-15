@@ -244,7 +244,7 @@
         d_{\mathcal{M}}^{\pi}(s) = (1-\gamma)\sum_{t=0}^{\infty} \gamma^t \mathcal{P}(s_t=s|\pi,\mathcal{M}).
     \end{equation}
     $$
-    我们有如下引理
+    我们有如下引理<br>
 
     <b>引理：</b>对于任意$\mathcal{S}$上的函数$f,g$，如果他们满足
     $$
@@ -268,7 +268,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
-    <h2 class="title is-3">Policy Gradient</h2>
+    <h2 class="title is-3">Policy Gradient [1]</h2>
     <div class="content has-text-justified">
     <p>我们取$f(s) = \nabla_{\pi} [V_{\pi,\mathcal{M}}(s)]$, 自然地，我们有
       $$
@@ -298,195 +298,82 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Method</h2>
-        <div class="content has-text-justified">
-    <p>We first formulate CEURL as the following CEMDP</p>
-    <img src="./static/ceurl/CEMDP.png" alt="inference_page">
-    <p>Then we analyze the cross-embodiment the fine-tuning objective &#x1D4D5; and the pre-training objective &#x1D4E4;, of which the main principles are that <b>the pre-trained agent can control the distribution of embodiments to adapt any downtream tasks with limited timesteps</b>.</p>
-    <img src="./static/ceurl/CE-finetune.png" alt="inference_page">
-    <img src="./static/ceurl/CE-pretrain.png" alt="inference_page">
-    <p>Although the pre-training objective is complicated min-max problem, we can simplify it as below</p>
-    <img src="./static/ceurl/min-max.png" alt="inference_page">
-    <p>The simplified objective can be further estimated by our cross-embodiment intrinsic reward</p> 
-    <img src="./static/ceurl/CE-reward.png" alt="inference_page">
-    <p>Then our PEAC will train an embodiment discriminator and utilize it to calculate the cross-embodiment intrinsic reward for pre-training. We also provide how to combine PEAC with existing exploration methods or skill discovery methods to achieve cross-embodiment exploration or cross-embodiment skill discovery respectively.</p>
+    <div class="column is-four-fifths">
+    <h2 class="title is-3">Policy Gradient [1]</h2>
+    <div class="content has-text-justified">
+    <p>一个经常被考虑的问题是不同策略在不同MDP下的累计期望奖励的差，即给定另一个MDP $\mathcal{M}'$和策略$\pi'$，我们考虑$J_{\mathcal{M'}}(\pi') - J_{\mathcal{M}}(\pi)$。
+
+      我们取$f(s) = V_{\pi',\mathcal{M}'}(s) - V_{\pi,\mathcal{M}}(s)$,自然地，我们有
+      $$
+      \begin{equation}
+      \begin{split}
+          & f(s) = V_{\pi',\mathcal{M}'}(s) - V_{\pi,\mathcal{M}}(s)\\
+          = & V_{\pi',\mathcal{M}'}(s)
+          - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{\pi, \mathcal{M}}(s')\right]dads' \\
+          = & \underbrace{V_{\pi',\mathcal{M}'}(s) - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{\pi', \mathcal{M}'}(s')\right] dads'}_{\mathrm{defined\ as\ } g(s)} \\
+          + & \gamma \int \pi(a|s)    \mathcal{P}(s'|s,a)\underbrace{\left[V_{\pi', \mathcal{M}'}(s') - V_{\pi, \mathcal{M}}(s')\right]}_{f(s')} dads'.
+      \end{split}
+      \end{equation}
+      $$
+      因此我们可以得到
+      $$
+      \begin{equation}
+      \begin{split}
+          & J_{\mathcal{M'}}(\pi') - J_{\mathcal{M}}(\pi) = \mathbb{E}_{s\sim \rho_0} [V_{\pi',\mathcal{M}'}(s) - V_{\pi,\mathcal{M}}(s)] =  \mathbb{E}_{s\sim\rho_0} [f(s)] 
+          = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)] \\
+          % = &\frac{1}{1-\gamma} \int d_{\mathcal{M}}^{\pi}(s) \left[V_{\pi',\mathcal{M}'}(s) - \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{\pi', \mathcal{M}'}(s')\right]\right]  dsdads'.
+      \end{split}
+      \end{equation}
+      $$
+      
+      特别的，当$\mathcal{M}'=\mathcal{M}$时，$g(s)$可以简化为：
+      $$
+      \begin{equation}
+      \begin{split}
+      \label{eq_same_mdp}
+          g(s) = & V_{\pi',\mathcal{M}}(s) - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{\pi', \mathcal{M}}(s')\right] dads' \\
+          = & V_{\pi',\mathcal{M}}(s) - \int \pi(a|s) Q_{\pi', \mathcal{M}}(s,a) da \\
+          \overset{(*)}{=} & \int (\pi'(a|s) - \pi(a|s)) Q_{\pi', \mathcal{M}}(s,a) da \\
+          = & \int (\pi'(a|s) - \pi(a|s)) Q_{\pi', \mathcal{M}}(s,a) da - \underbrace{\int (\pi'(a|s) - \pi(a|s)) V_{\pi', \mathcal{M}}(s) da}_{=0}  \\
+          = & \int (\pi'(a|s) - \pi(a|s)) A_{\pi', \mathcal{M}}(s,a) da   \\
+          = & \int (\pi'(a|s) - \pi(a|s)) A_{\pi', \mathcal{M}}(s,a) da - \underbrace{\int \pi'(a|s) A_{\pi', \mathcal{M}}(s,a) da}_{=0} \\
+          = & - \int  \pi(a|s) A_{\pi', \mathcal{M}}(s,a) da .
+      \end{split}
+      \end{equation}
+      $$
+      因此我们得到
+      $$
+      \begin{equation}
+      \begin{split}
+          J_{\mathcal{M}}(\pi') - J_{\mathcal{M}}(\pi) = \frac{-1}{1-\gamma} \int d_{\mathcal{M}}^{\pi}(s) \pi(a|s) A_{\pi', \mathcal{M}}(s,a) dsda.
+      \end{split}
+      \end{equation}
+      $$
+      这就是文章~\cite{kakade2002approximately}中的引理6.1以及TRPO中~\cite{schulman2015trust}的式子(2)。
+      
+      同时，我们也可以基于式子$(*)$证明贪心策略的策略提升（Policy Improvement），我们有
+      $$
+      \begin{equation}
+      \begin{split}
+          J_{\mathcal{M}}(\pi') - J_{\mathcal{M}}(\pi) = \frac{1}{1-\gamma} \int d_{\mathcal{M}}^{\pi}(s) (\pi'(a|s) - \pi(a|s)) Q_{\pi', \mathcal{M}}(s,a) ds da,
+      \end{split}
+      \end{equation}
+      $$
+      交换一下$\pi$和$\pi'$可以得到
+      $$
+      \begin{equation}
+      \begin{split}
+          J_{\mathcal{M}}(\pi) - J_{\mathcal{M}}(\pi') = \frac{1}{1-\gamma} \int d_{\mathcal{M}}^{\pi'}(s) (\pi(a|s) - \pi'(a|s)) Q_{\pi, \mathcal{M}}(s,a) ds da \leq 0,
+      \end{split}
+      \end{equation}
+      $$
+      这里最后一个小于等于号是因为$\pi'(s) = \argmax_a Q_{\pi,\mathcal{M}}(s,a)$。
+      
+      除此之外，我们也可以得到$J_{\mathcal{M}}(\pi') - J_{\mathcal{M}}(\pi)$的一些上界，为了不影响阅读的连贯性，我们把这些内容放到~\ref{sec_upper_bound}小节。
+   </p>
 </section>
 
-<!-- <hr> -->
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Experiments</h2>
-        <div class="content has-text-justified">
-        <p>We consider extensive experimental setting, including different embodiment changings, ranging from simulation to real-world, state-based input to image-based input, locomotion tasks to manipution tasks.        </p>
-        <img src="./static/ceurl/experimental_setup.png" alt="inference_page">
-        <br>
-        <div style="text-align: center;">
-          <h3 class="title is-4">Simulation Results</h3>
-          <img src="./static/ceurl/state-DMC.png" alt="inference_page">
-          <p><b>Results in state-based DMC.</b></p>
-          <br>
-          <img src="./static/ceurl/image-DMC.png" alt="inference_page">
-          <p><b>Results in image-based DMC.</b></p>
-          <br>
-          <img src="./static/ceurl/tsne.png" alt="inference_page">
-          <p><b>Visualization via t-SNE of the pre-trained model generalization to unseen embodiments.</b></p>
-          <br>
-
-          <h3 class="title is-4">Real-world legged locomotion video</h3>
-          <div class="publication-video">
-            <video controls style="max-width: 100%; height: auto;">
-              <source src="./static/ceurl/video.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/ Paper video. -->
-</section>
-
-
-<!-- <section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered"> -->
-
-      <!-- Visual Effects. -->
-      <!-- <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div> -->
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <!-- <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div> -->
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width"> -->
-        <!-- <h2 class="title is-3">Animation</h2> -->
-
-        <!-- Interpolating. -->
-        <!-- <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/> -->
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <!-- <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div> -->
-        <!--/ Re-rendering. -->
-
-      <!-- </div>
-    </div> -->
-    <!--/ Animation. -->
-
-
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Concurrent Work. -->
-
-  <!-- </div>
-</section> -->
 
 
 <section class="section" id="BibTeX">
@@ -500,6 +387,10 @@
 }</code></pre>
   </div>
 </section>
+
+<h1 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h1>
+<p>[1] Richard S Sutton, David McAllester, Satinder Singh, and Yishay Mansour. <a href="https://proceedings.neurips.cc/paper_files/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf">&ldquo;Policy gradientmethods for reinforcement learning with function approximation.&ldquo;</a> Advances in neural informationprocessing systems, 12, 1999.</p>
+
 
 
 <footer class="footer">
