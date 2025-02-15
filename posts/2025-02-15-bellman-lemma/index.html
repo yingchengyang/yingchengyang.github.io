@@ -332,8 +332,8 @@
       $$
       \begin{equation}
       \begin{split}
-          J_{\mathrm{ME}}(\pi) \triangleq & \mathbb{E} \left[ \sum_{t=0}^{\infty} \gamma^t \left(\mathcal{R}(\vs_t, \va_t) + \alpha \mathcal{H}(\pi(\cdot|\vs_t)) \right)\right]
-          = J(\pi) + \frac{\alpha}{1-\gamma} \mathbb{E}_{\vs\sim d_{\pi}}  \left[\mathcal{H}(\pi(\vs)) \right]. 
+          J_{\mathrm{ME}}(\pi) \triangleq & \mathbb{E} \left[ \sum_{t=0}^{\infty} \gamma^t \left(\mathcal{R}(s_t, a_t) + \alpha \mathcal{H}(\pi(\cdot|s_t)) \right)\right]
+          = J(\pi) + \frac{\alpha}{1-\gamma} \mathbb{E}_{s\sim d_{\pi}}  \left[\mathcal{H}(\pi(s)) \right]. 
       \end{split}
       \end{equation}
       $$
@@ -341,14 +341,14 @@
       $$
       \begin{equation}
       \begin{split}
-          Q'_{\pi,\mathcal{M}}(\vs, \va) & = \mathbb{E}\left[ \mathcal{R}(\vs, \va) + \sum_{i=1}^{\infty} \gamma^i \left(\mathcal{R}(\vs_i, \va_i) +  \alpha \mathcal{H}(\pi(\cdot|\vs_i)) \right)  \right].
+          Q'_{\pi,\mathcal{M}}(s, a) & = \mathbb{E}\left[ \mathcal{R}(s, a) + \sum_{i=1}^{\infty} \gamma^i \left(\mathcal{R}(s_i, a_i) +  \alpha \mathcal{H}(\pi(\cdot|s_i)) \right)  \right].
       \end{split}
       \end{equation}
       $$
       每次策略更新为
       $$
       \begin{equation}
-          \pi'(\cdot|\vs) \propto \exp (Q'_{\pi,\mathcal{M}}(\vs,\cdot) / \alpha).
+          \pi'(\cdot|s) \propto \exp (Q'_{\pi,\mathcal{M}}(s,\cdot) / \alpha).
       \end{equation}
       $$
       我们希望证明这种策略更新可以实现策略提升，即$J_{\mathrm{ME}}(\pi') \ge J_{\mathrm{ME}}(\pi)$.
@@ -356,7 +356,7 @@
       $$
       \begin{equation}
       \begin{split}
-          F(\mu, Q, \vs) = \mathbb{E}_{\va\sim\mu(\cdot|\vs)}  \left[ Q(\vs, \va) + \alpha \mathcal{H}(\mu(\cdot|\vs)) \right].
+          F(\mu, Q, s) = \mathbb{E}_{a\sim\mu(\cdot|s)}  \left[ Q(s, a) + \alpha \mathcal{H}(\mu(\cdot|s)) \right].
       \end{split}
       \end{equation}
       $$
@@ -364,10 +364,10 @@
       $$
       \begin{equation}
       \begin{split}
-          Q'_{\pi,\mathcal{M}}(\vs, \va) 
-          % = &\mathcal{R}(\vs, \va) + \mathbb{E}\left[  \sum_{i=1}^{\infty} \gamma^i \left(\mathcal{R}(\vs_i, \va_i)  +  \alpha \mathcal{H}(\pi(\cdot|\vs_i))  \right) \Bigg{|} \vs_0=\vs, \va_0=\va \right] \\
-          = &\mathcal{R}(\vs, \va) + \alpha \gamma \mathbb{E}_{\vs_1\sim\mathcal{P}(\cdot|\vs,\va)} \left(\mathcal{H}(\pi(\cdot|\vs_1)) \right) + \gamma \mathbb{E}_{\vs_1,\va_1} \left[ Q'_{\pi,\mathcal{M}}(\vs_1, \va_1)\right] \\
-          = & \mathcal{R}(\vs, \va) + \gamma \mathbb{E}_{\vs_1} [F(\pi, Q'_{\pi,\mathcal{M}}, \vs_1)].
+          Q'_{\pi,\mathcal{M}}(s, a) 
+          % = &\mathcal{R}(s, a) + \mathbb{E}\left[  \sum_{i=1}^{\infty} \gamma^i \left(\mathcal{R}(s_i, a_i)  +  \alpha \mathcal{H}(\pi(\cdot|s_i))  \right) \Bigg{|} s_0=s, a_0=a \right] \\
+          = &\mathcal{R}(s, a) + \alpha \gamma \mathbb{E}_{s_1\sim\mathcal{P}(\cdot|s,a)} \left(\mathcal{H}(\pi(\cdot|s_1)) \right) + \gamma \mathbb{E}_{s_1,a_1} \left[ Q'_{\pi,\mathcal{M}}(s_1, a_1)\right] \\
+          = & \mathcal{R}(s, a) + \gamma \mathbb{E}_{s_1} [F(\pi, Q'_{\pi,\mathcal{M}}, s_1)].
       \end{split}
       \end{equation}
       $$
@@ -375,13 +375,13 @@
       $$
       \begin{equation}
       \begin{split}
-          f(\vs) \triangleq & F(\pi', Q'_{\pi',\mathcal{M}}, \vs) - F(\pi, Q'_{\pi,\mathcal{M}}, \vs) \\
-          =& \underbrace{F(\pi', Q'_{\pi,\mathcal{M}}, \vs) - F(\pi, Q'_{\pi,\mathcal{M}}, \vs)}_{\mathrm{defined\ as\ } g(\vs)}
-          + F(\pi', Q'_{\pi',\mathcal{M}}, \vs) - F(\pi', Q'_{\pi,\mathcal{M}}, \vs) \\
-          =& g(\vs) 
-          +  \mathbb{E}_{\va\sim\pi'(\cdot|\vs)}  [ Q'_{\pi',\mathcal{M}}(\vs, \va) - Q'_{\pi,\mathcal{M}}(\vs, \va) ] \\
-          =& g(\vs)  
-          + \gamma\mathbb{E}_{\va\sim\pi'(\cdot|\vs), \vs_1} [\underbrace{F(\pi', Q'_{\pi',\mathcal{M}}, \vs_1) - F(\pi, Q'_{\pi,\mathcal{M}}, \vs_1)}_{f(\vs_1)}].
+          f(s) \triangleq & F(\pi', Q'_{\pi',\mathcal{M}}, s) - F(\pi, Q'_{\pi,\mathcal{M}}, s) \\
+          =& \underbrace{F(\pi', Q'_{\pi,\mathcal{M}}, s) - F(\pi, Q'_{\pi,\mathcal{M}}, s)}_{\mathrm{defined\ as\ } g(s)}
+          + F(\pi', Q'_{\pi',\mathcal{M}}, s) - F(\pi', Q'_{\pi,\mathcal{M}}, s) \\
+          =& g(s) 
+          +  \mathbb{E}_{a\sim\pi'(\cdot|s)}  [ Q'_{\pi',\mathcal{M}}(s, a) - Q'_{\pi,\mathcal{M}}(s, a) ] \\
+          =& g(s)  
+          + \gamma\mathbb{E}_{a\sim\pi'(\cdot|s), s_1} [\underbrace{F(\pi', Q'_{\pi',\mathcal{M}}, s_1) - F(\pi, Q'_{\pi,\mathcal{M}}, s_1)}_{f(s_1)}].
       \end{split}
       \end{equation}
       $$
@@ -389,34 +389,34 @@
       $$
       \begin{equation}
       \begin{split}
-          J_{\mathrm{ME}}(\pi') - J_{\mathrm{ME}}(\pi) = & \mathbb{E}_{s\sim\rho_0} \left[ F(\pi', Q'_{\pi',\mathcal{M}}(\vs,\cdot), \vs) - F(\pi, Q'_{\pi,\mathcal{M}}(\vs,\cdot), \vs)\right] 
-          = \mathbb{E}_{s\sim\rho_0} [f(\vs)] \\
-          = & \frac{1}{1-\gamma} \mathbb{E}_{\vs\sim d_{\mathcal{M}}^{\pi'}}[g(\vs)] \\
-          = & \frac{1}{1-\gamma} \mathbb{E}_{\vs\sim d_{\mathcal{M}}^{\pi'}}[F(\pi', Q'_{\pi,\mathcal{M}}, \vs) - F(\pi, Q'_{\pi,\mathcal{M}}, \vs)]
+          J_{\mathrm{ME}}(\pi') - J_{\mathrm{ME}}(\pi) = & \mathbb{E}_{s\sim\rho_0} \left[ F(\pi', Q'_{\pi',\mathcal{M}}(s,\cdot), s) - F(\pi, Q'_{\pi,\mathcal{M}}(s,\cdot), s)\right] 
+          = \mathbb{E}_{s\sim\rho_0} [f(s)] \\
+          = & \frac{1}{1-\gamma} \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi'}}[g(s)] \\
+          = & \frac{1}{1-\gamma} \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi'}}[F(\pi', Q'_{\pi,\mathcal{M}}, s) - F(\pi, Q'_{\pi,\mathcal{M}}, s)]
       \end{split}
       \end{equation}
       $$
-      最后我们证明$F(\pi', Q'_{\pi,\mathcal{M}}, \vs) \ge F(\pi, Q'_{\pi,\mathcal{M}}, \vs)$，将$F$看成关于$\mu$的函数，最优解$\mu^*$满足
+      最后我们证明$F(\pi', Q'_{\pi,\mathcal{M}}, s) \ge F(\pi, Q'_{\pi,\mathcal{M}}, s)$，将$F$看成关于$\mu$的函数，最优解$\mu^*$满足
       $$
       \begin{equation}
       \begin{split}
-          Q(\vs, \va) = \alpha  \log \mu^*(\va|\vs) + b \alpha,
+          Q(s, a) = \alpha  \log \mu^*(a|s) + b \alpha,
       \end{split}
       \end{equation}
       $$
-      这里$b$是一个常数，并且我们有 $\mu^*(\va|\vs) =  e^{\frac{Q(\vs, \va)}{\alpha} - b}$。由于$\int \mu^*(\va|\vs) d\va = 1$我们有
+      这里$b$是一个常数，并且我们有 $\mu^*(a|s) =  e^{\frac{Q(s, a)}{\alpha} - b}$。由于$\int \mu^*(a|s) da = 1$我们有
       $$
       \begin{equation}
       \begin{split}
-          b =& \log\int  e^{\frac{Q(\vs, \va)}{\alpha}} d\va, \quad 
-          \mu^*(\va|\vs) =  \frac{ e^{\frac{Q(\vs, \va)}{\alpha}}}{\int  e^{\frac{Q(\vs, \va')}{\alpha}} d\va'} \propto e^{\frac{Q(\vs, \va)}{\alpha}}.
+          b =& \log\int  e^{\frac{Q(s, a)}{\alpha}} da, \quad 
+          \mu^*(a|s) =  \frac{ e^{\frac{Q(s, a)}{\alpha}}}{\int  e^{\frac{Q(s, a')}{\alpha}} da'} \propto e^{\frac{Q(s, a)}{\alpha}}.
       \end{split}
       \end{equation}
       $$
       即
       $$
       \begin{equation}
-          F(\pi', Q'_{\pi,\mathcal{M}}, \vs) \ge F(\pi, Q'_{\pi,\mathcal{M}}, \vs).
+          F(\pi', Q'_{\pi,\mathcal{M}}, s) \ge F(\pi, Q'_{\pi,\mathcal{M}}, s).
       \end{equation}
       $$
       这样我们就证明了Max-Entropy RL的策略提升定理（[4]中的定理4）。
