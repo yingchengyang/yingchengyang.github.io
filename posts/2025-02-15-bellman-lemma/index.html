@@ -183,9 +183,9 @@
     <div class="column is-four-fifths">
     <h2 class="title is-3">1. Overview</h2>
     <div class="content has-text-justified">
-    <p>强化学习里面有很多经典的理论结果，比如策略梯度定理，两个策略的累计期望奖励的差等等，这个blog介绍一个统一的工具来分析这些问题。
+    <p>强化学习里面有很多经典的理论结果，比如策略梯度定理，两个策略的累计期望奖励的差，策略提升等等，这个blog介绍一个统一的工具来分析这些问题。<br>
 
-    考虑一个MDP $\mathcal{M}=(\mathcal{S},\mathcal{A},\mathcal{P}, \mathcal{R},\gamma,\rho_0)$和策略$\pi$，我们可以定义
+    我们先介绍一些基本的符号。一般来说，强化学习考虑一个MDP $\mathcal{M}=(\mathcal{S},\mathcal{A},\mathcal{P}, \mathcal{R},\gamma,\rho_0)$和策略$\pi$，这里$\mathcal{S}$和$\mathcal{A}$分别表示状态和动作空间，$\mathcal{P}$和$\mathcal{R}$分别表示转移函数和奖励函数，$\gamma$表示长时回报的折扣，$\rho_0$表示状态的初始分布。我们可以定义$\mathcal{M}$和$\pi$下的累计折扣状态分布：
     $$
     \begin{equation}
         d_{\mathcal{M}}^{\pi}(s) = (1-\gamma)\sum_{t=0}^{\infty} \gamma^t \mathcal{P}(s_t=s|\pi,\mathcal{M}).
@@ -207,7 +207,24 @@
         \mathbb{E}_{s\sim\rho_0} \left[f(s)\right] = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \left[g(s)\right].
     \end{equation}
     $$
-    为了便于阅读，我们先看看这个引理的具体应用，然后再给出这个引理的证明 (第5小节)。
+    为了便于阅读，我们先看看这个引理的具体应用，然后再给出这个引理的证明（第5小节）。<br>
+
+    乍一看，这个引理的条件有点复杂，但是熟悉强化学习的同学就会发现这个条件和Bellman Equation非常像，例如，值函数$V_{\pi,\mathcal{M}}$和奖励函数$\mathcal{R}$就自然满足这个条件：
+    $$
+    \begin{equation}
+        \underbrace{V_{\pi,\mathcal{M}}(s)}_{f(s)} = \underbrace{\mathbb{E}_{a\sim\pi(\cdot|s)} [\mathcal{R}(s,a)]}_{g(s)} + \gamma\int \pi(a|s)\mathcal{P}(s'|s,a) \underbrace{V_{\pi,\mathcal{M}}(s')}_{f(s')} dads'.
+    \end{equation}
+    $$
+    那么基于这个引理，我们就可以得到这个引理的第一个推论：
+    $$
+    \begin{equation}
+    \begin{split}
+        J_{\mathcal{M}}(\pi) \triangleq & \mathbb{E}_{s\sim\rho_0} \left[V_{\pi,\mathcal{M}}(s)\right] = \mathbb{E}_{s\sim\rho_0} \left[f(s)\right] \\
+        = & \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \left[g(s)\right] = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} \mathbb{E}_{a\sim\pi(\cdot|s)} [\mathcal{R}(s,a)].
+    \end{split}
+    \end{equation}
+    $$
+    这个结论其实非常平凡，事实上用$V_{\pi,\mathcal{M}}$和$d_{\mathcal{M}}^{\pi}$的定义就可以证明。那么接下来我们看一下这个引理的一些更有趣的推论。
    </p>
 </section>
 
@@ -217,7 +234,13 @@
     <div class="column is-four-fifths">
     <h2 class="title is-3">2. Policy Gradient [1]</h2>
     <div class="content has-text-justified">
-    <p>我们取$f(s) = \nabla_{\pi} [V_{\pi,\mathcal{M}}(s)]$, 自然地，我们有
+    <p>策略梯度定理是强化学习最重要的结论之一，具体来说，就是考虑累计期望奖励对策略的梯度，即
+      $$
+      \begin{equation}
+          \nabla_{\pi} J_{\mathcal{M}}(\pi) \triangleq \nabla_{\pi} \mathbb{E}_{s\sim\rho_0} [V_{\mathcal{M}, \pi}(s)] =  \mathbb{E}_{s\sim\rho_0} [\nabla_{\pi} V_{\mathcal{M}, \pi}(s)].
+      \end{equation}
+      $$
+      为了用上我们的引理，我们自然考虑$f(s) = \nabla_{\pi} V_{\pi,\mathcal{M}}(s)$,并可以化简
       $$
       \begin{equation}
       \begin{split}
@@ -249,9 +272,13 @@
     <div class="column is-four-fifths">
     <h2 class="title is-3">3. 不同策略/MDP上累计期望奖励之差</h2>
     <div class="content has-text-justified">
-    <p>一个经常被考虑的问题是不同策略在不同MDP下的累计期望奖励的差，即给定另一个MDP $\mathcal{M}'$和策略$\pi'$，我们考虑$J_{\mathcal{M'}}(\pi') - J_{\mathcal{M}}(\pi)$。
-
-      我们取$f(s) = V_{\pi',\mathcal{M}'}(s) - V_{\pi,\mathcal{M}}(s)$,自然地，我们有
+    <p>一个经常被考虑的问题是不同策略在不同MDP下的累计期望奖励的差，即给定另一个MDP ${\color{red}{\mathcal{M'}}}=(\mathcal{S},\mathcal{A},\mathcal{P}',\mathcal{R}',\gamma,\rho_0)$和策略${\color{red}{\pi'}}$，这里我们假设${\color{red}{\mathcal{M'}}}$的初始状态分布和$\mathcal{M}$一样为$\rho_0$。为了方便区分，我们将${\color{red}{\mathcal{M}'}}$和${\color{red}{\pi'}}$都用红色表示。我们考虑$J_{{\color{red}{\mathcal{M}'}}} ({\color{red}{\pi'}}) - J_{\mathcal{M}}(\pi)$。
+      \begin{equation}
+      \begin{split}
+          & J_{{\color{red}{\mathcal{M}'}}}({\color{red}{\pi'}}) - J_{\mathcal{M}}(\pi) = \mathbb{E}_{s\sim \rho_0} [V_{{\color{red}{\pi'}},{\color{red}{\mathcal{M}'}}}(s) - V_{\pi,\mathcal{M}}(s)]
+      \end{split}
+      \end{equation}
+      为了用上我们的引理，我们自然取$f(s) = V_{{\color{red}{\pi'}},{\color{red}{\mathcal{M'}}}}(s) - V_{\pi,\mathcal{M}}(s)$并有
       $$
       \begin{equation}
       \begin{split}
