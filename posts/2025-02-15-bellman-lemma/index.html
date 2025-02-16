@@ -282,37 +282,32 @@
       $$
       \begin{equation}
       \begin{split}
-          & f(s) = V_{\pi',\mathcal{M}'}(s) - V_{\pi,\mathcal{M}}(s)\\
-          = & V_{\pi',\mathcal{M}'}(s)
+          f(s) = & V_{{\color{red}{\pi'}},{\color{red}{\mathcal{M'}}}}(s) - V_{\pi,\mathcal{M}}(s)\\
+          = & V_{{\color{red}{\pi'}},{\color{red}{\mathcal{M'}}}}(s)
           - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{\pi, \mathcal{M}}(s')\right]dads' \\
-          = & \underbrace{V_{\pi',\mathcal{M}'}(s) - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{\pi', \mathcal{M}'}(s')\right] dads'}_{\mathrm{defined\ as\ } g(s)} \\
-          + & \gamma \int \pi(a|s)    \mathcal{P}(s'|s,a)\underbrace{\left[V_{\pi', \mathcal{M}'}(s') - V_{\pi, \mathcal{M}}(s')\right]}_{f(s')} dads'.
+          = & \underbrace{V_{{\color{red}{\pi'}},{\color{red}{\mathcal{M'}}}}(s) - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{{\color{red}{\pi'}}, {\color{red}{\mathcal{M'}}}}(s')\right] dads'}_{\mathrm{defined\ as\ } g(s)} \\
+          + & \gamma \int \pi(a|s)    \mathcal{P}(s'|s,a)\underbrace{\left[V_{{\color{red}{\pi'}}, {\color{red}{\mathcal{M'}}}}(s') - V_{\pi, \mathcal{M}}(s')\right]}_{f(s')} dads'.
       \end{split}
       \end{equation}
       $$
       因此我们可以得到
       $$
-      \begin{equation}
-      \begin{split}
-          & J_{\mathcal{M'}}(\pi') - J_{\mathcal{M}}(\pi) = \mathbb{E}_{s\sim \rho_0} [V_{\pi',\mathcal{M}'}(s) - V_{\pi,\mathcal{M}}(s)] =  \mathbb{E}_{s\sim\rho_0} [f(s)] 
-          = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)] \\
-          % = &\frac{1}{1-\gamma} \int d_{\mathcal{M}}^{\pi}(s) \left[V_{\pi',\mathcal{M}'}(s) - \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{\pi', \mathcal{M}'}(s')\right]\right]  dsdads'.
-      \end{split}
-      \end{equation}
+      & J_{{\color{red}{\mathcal{M}'}}}({\color{red}{\pi'}}) - J_{\mathcal{M}}(\pi) = \mathbb{E}_{s\sim \rho_0} [V_{{\color{red}{\pi'}},{\color{red}{\mathcal{M'}}}}(s) - V_{\pi,\mathcal{M}}(s)] =  \mathbb{E}_{s\sim\rho_0} [f(s)] 
+      = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)].
       $$
       
-      特别的，当$\mathcal{M}'=\mathcal{M}$时，$g(s)$可以简化为：
+      特别的，当${\color{red}{\mathcal{M'}}}=\mathcal{M}$时，即我们考虑同一个MDP下的不同策略的累计期望奖励之差，此时$g(s)$可以简化为：
       $$
       \begin{equation}
       \begin{split}
       \label{eq_same_mdp}
-          g(s) = & V_{\pi',\mathcal{M}}(s) - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{\pi', \mathcal{M}}(s')\right] dads' \\
-          = & V_{\pi',\mathcal{M}}(s) - \int \pi(a|s) Q_{\pi', \mathcal{M}}(s,a) da \\
-          \overset{(*)}{=} & \int (\pi'(a|s) - \pi(a|s)) Q_{\pi', \mathcal{M}}(s,a) da \\
-          = & \int (\pi'(a|s) - \pi(a|s)) Q_{\pi', \mathcal{M}}(s,a) da - \underbrace{\int (\pi'(a|s) - \pi(a|s)) V_{\pi', \mathcal{M}}(s) da}_{=0}  \\
-          = & \int (\pi'(a|s) - \pi(a|s)) A_{\pi', \mathcal{M}}(s,a) da   \\
-          = & \int (\pi'(a|s) - \pi(a|s)) A_{\pi', \mathcal{M}}(s,a) da - \underbrace{\int \pi'(a|s) A_{\pi', \mathcal{M}}(s,a) da}_{=0} \\
-          = & - \int  \pi(a|s) A_{\pi', \mathcal{M}}(s,a) da .
+          g(s) = & V_{{\color{red}{\pi'}},\mathcal{M}}(s) - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{{\color{red}{\pi'}}, \mathcal{M}}(s')\right] dads' \\
+          = & V_{{\color{red}{\pi'}},\mathcal{M}}(s) - \int \pi(a|s) Q_{{\color{red}{\pi'}}, \mathcal{M}}(s,a) da \\
+          \overset{(*)}{=} & \int ({\color{red}{\pi'}}(a|s) - \pi(a|s)) Q_{{\color{red}{\pi'}}, \mathcal{M}}(s,a) da \\
+          = & \int ({\color{red}{\pi'}}(a|s) - \pi(a|s)) Q_{{\color{red}{\pi'}}, \mathcal{M}}(s,a) da - \underbrace{\int ({\color{red}{\pi'}}(a|s) - \pi(a|s)) V_{{\color{red}{\pi'}}, \mathcal{M}}(s) da}_{=0}  \\
+          = & \int ({\color{red}{\pi'}}(a|s) - \pi(a|s)) A_{{\color{red}{\pi'}}, \mathcal{M}}(s,a) da   \\
+          = & \int ({\color{red}{\pi'}}(a|s) - \pi(a|s)) A_{{\color{red}{\pi'}}, \mathcal{M}}(s,a) da - \underbrace{\int {\color{red}{\pi'}}(a|s) A_{{\color{red}{\pi'}}, \mathcal{M}}(s,a) da}_{=0} \\
+          = & - \int  \pi(a|s) A_{{\color{red}{\pi'}}, \mathcal{M}}(s,a) da .
       \end{split}
       \end{equation}
       $$
@@ -320,7 +315,7 @@
       $$
       \begin{equation}
       \begin{split}
-          J_{\mathcal{M}}(\pi') - J_{\mathcal{M}}(\pi) = \frac{-1}{1-\gamma} \int d_{\mathcal{M}}^{\pi}(s) \pi(a|s) A_{\pi', \mathcal{M}}(s,a) dsda.
+          J_{\mathcal{M}}({\color{red}{\pi'}}) - J_{\mathcal{M}}(\pi) = \frac{-1}{1-\gamma} \int d_{\mathcal{M}}^{\pi}(s) \pi(a|s) A_{{\color{red}{\pi'}}, \mathcal{M}}(s,a) dsda.
       \end{split}
       \end{equation}
       $$
@@ -330,21 +325,21 @@
       $$
       \begin{equation}
       \begin{split}
-          J_{\mathcal{M}}(\pi') - J_{\mathcal{M}}(\pi) = \frac{1}{1-\gamma} \int d_{\mathcal{M}}^{\pi}(s) (\pi'(a|s) - \pi(a|s)) Q_{\pi', \mathcal{M}}(s,a) ds da,
+          J_{\mathcal{M}}({\color{red}{\pi'}}) - J_{\mathcal{M}}(\pi) = \frac{1}{1-\gamma} \int d_{\mathcal{M}}^{\pi}(s) ({\color{red}{\pi'}}(a|s) - \pi(a|s)) Q_{{\color{red}{\pi'}}, \mathcal{M}}(s,a) ds da,
       \end{split}
       \end{equation}
       $$
-      交换一下$\pi$和$\pi'$可以得到
+      交换一下$\pi$和${\color{red}{\pi'}}$可以得到
       $$
       \begin{equation}
       \begin{split}
-          J_{\mathcal{M}}(\pi) - J_{\mathcal{M}}(\pi') = \frac{1}{1-\gamma} \int d_{\mathcal{M}}^{\pi'}(s) (\pi(a|s) - \pi'(a|s)) Q_{\pi, \mathcal{M}}(s,a) ds da \leq 0,
+          J_{\mathcal{M}}(\pi) - J_{\mathcal{M}}({\color{red}{\pi'}}) = \frac{1}{1-\gamma} \int d_{\mathcal{M}}^{{\color{red}{\pi'}}}(s) (\pi(a|s) - {\color{red}{\pi'}}(a|s)) Q_{\pi, \mathcal{M}}(s,a) ds da \leq 0,
       \end{split}
       \end{equation}
       $$
-      这里最后一个小于等于号是因为$\pi'(s) = \arg\max_a Q_{\pi,\mathcal{M}}(s,a)$。<br>
+      这里最后一个小于等于号是因为${\color{red}{\pi'}}(s) = \argmax_a Q_{\pi,\mathcal{M}}(s,a)$。<br>
       
-      除此之外，我们也可以得到$J_{\mathcal{M}'}(\pi') - J_{\mathcal{M}}(\pi)$的一些上界，为了不影响阅读的连贯性，我们把这些内容放到第6小节。
+      除此之外，我们也可以得到$J_{{\color{red}{\mathcal{M'}}}}({\color{red}{\pi'}}) - J_{\mathcal{M}}(\pi)$的一些上界，为了不影响阅读的连贯性，我们把这些内容放到第6小节。
    </p>
 </section>
 
@@ -375,10 +370,10 @@
       每次策略更新为
       $$
       \begin{equation}
-          \pi'(\cdot|s) \propto \exp (Q'_{\pi,\mathcal{M}}(s,\cdot) / \alpha).
+          {\color{red}{\pi'}}(\cdot|s) \propto \exp (Q'_{\pi,\mathcal{M}}(s,\cdot) / \alpha).
       \end{equation}
       $$
-      我们希望证明这种策略更新可以实现策略提升，即$J_{\mathrm{ME}}(\pi') \ge J_{\mathrm{ME}}(\pi)$.
+      我们希望证明这种策略更新可以实现策略提升，即$J_{\mathrm{ME}}({\color{red}{\pi'}}) \ge J_{\mathrm{ME}}(\pi)$.
       首先，为了简化符号，我们定义
       $$
       \begin{equation}
@@ -392,23 +387,30 @@
       \begin{equation}
       \begin{split}
           Q'_{\pi,\mathcal{M}}(s, a) 
-          % = &\mathcal{R}(s, a) + \mathbb{E}\left[  \sum_{i=1}^{\infty} \gamma^i \left(\mathcal{R}(s_i, a_i)  +  \alpha \mathcal{H}(\pi(\cdot|s_i))  \right) \Bigg{|} s_0=s, a_0=a \right] \\
           = &\mathcal{R}(s, a) + \alpha \gamma \mathbb{E}_{s_1\sim\mathcal{P}(\cdot|s,a)} \left(\mathcal{H}(\pi(\cdot|s_1)) \right) + \gamma \mathbb{E}_{s_1,a_1} \left[ Q'_{\pi,\mathcal{M}}(s_1, a_1)\right] \\
           = & \mathcal{R}(s, a) + \gamma \mathbb{E}_{s_1} [F(\pi, Q'_{\pi,\mathcal{M}}, s_1)].
       \end{split}
       \end{equation}
       $$
-      我们定义
+      同时显然我们有
       $$
       \begin{equation}
       \begin{split}
-          f(s) \triangleq & F(\pi', Q'_{\pi',\mathcal{M}}, s) - F(\pi, Q'_{\pi,\mathcal{M}}, s) \\
-          =& \underbrace{F(\pi', Q'_{\pi,\mathcal{M}}, s) - F(\pi, Q'_{\pi,\mathcal{M}}, s)}_{\mathrm{defined\ as\ } g(s)}
-          + F(\pi', Q'_{\pi',\mathcal{M}}, s) - F(\pi', Q'_{\pi,\mathcal{M}}, s) \\
+          J_{\mathrm{ME}}({\color{red}{\pi'}}) - J_{\mathrm{ME}}(\pi) = & \mathbb{E}_{s\sim\rho_0} \left[ F({\color{red}{\pi'}}, Q'_{{\color{red}{\pi'}},\mathcal{M}}(s,\cdot), s) - F(\pi, Q'_{\pi,\mathcal{M}}(s,\cdot), s)\right] 
+      \end{split}
+      \end{equation}
+      $$
+      因此，为了用上我们的引理，我们自然定义
+      $$
+      \begin{equation}
+      \begin{split}
+          f(s) \triangleq & F({\color{red}{\pi'}}, Q'_{{\color{red}{\pi'}},\mathcal{M}}, s) - F(\pi, Q'_{\pi,\mathcal{M}}, s) \\
+          =& \underbrace{F({\color{red}{\pi'}}, Q'_{\pi,\mathcal{M}}, s) - F(\pi, Q'_{\pi,\mathcal{M}}, s)}_{\mathrm{defined\ as\ } g(s)}
+          + F({\color{red}{\pi'}}, Q'_{{\color{red}{\pi'}},\mathcal{M}}, s) - F({\color{red}{\pi'}}, Q'_{\pi,\mathcal{M}}, s) \\
           =& g(s) 
-          +  \mathbb{E}_{a\sim\pi'(\cdot|s)}  [ Q'_{\pi',\mathcal{M}}(s, a) - Q'_{\pi,\mathcal{M}}(s, a) ] \\
+          +  \mathbb{E}_{a\sim{\color{red}{\pi'}}(\cdot|s)}  [ Q'_{{\color{red}{\pi'}},\mathcal{M}}(s, a) - Q'_{\pi,\mathcal{M}}(s, a) ] \\
           =& g(s)  
-          + \gamma\mathbb{E}_{a\sim\pi'(\cdot|s), s_1} [\underbrace{F(\pi', Q'_{\pi',\mathcal{M}}, s_1) - F(\pi, Q'_{\pi,\mathcal{M}}, s_1)}_{f(s_1)}].
+          + \gamma\mathbb{E}_{a\sim{\color{red}{\pi'}}(\cdot|s), s_1} [\underbrace{F({\color{red}{\pi'}}, Q'_{{\color{red}{\pi'}},\mathcal{M}}, s_1) - F(\pi, Q'_{\pi,\mathcal{M}}, s_1)}_{f(s_1)}].
       \end{split}
       \end{equation}
       $$
@@ -416,14 +418,14 @@
       $$
       \begin{equation}
       \begin{split}
-          J_{\mathrm{ME}}(\pi') - J_{\mathrm{ME}}(\pi) = & \mathbb{E}_{s\sim\rho_0} \left[ F(\pi', Q'_{\pi',\mathcal{M}}(s,\cdot), s) - F(\pi, Q'_{\pi,\mathcal{M}}(s,\cdot), s)\right] 
+          J_{\mathrm{ME}}({\color{red}{\pi'}}) - J_{\mathrm{ME}}(\pi) = & \mathbb{E}_{s\sim\rho_0} \left[ F({\color{red}{\pi'}}, Q'_{{\color{red}{\pi'}},\mathcal{M}}(s,\cdot), s) - F(\pi, Q'_{\pi,\mathcal{M}}(s,\cdot), s)\right] 
           = \mathbb{E}_{s\sim\rho_0} [f(s)] \\
-          = & \frac{1}{1-\gamma} \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi'}}[g(s)] \\
-          = & \frac{1}{1-\gamma} \mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi'}}[F(\pi', Q'_{\pi,\mathcal{M}}, s) - F(\pi, Q'_{\pi,\mathcal{M}}, s)]
+          = & \frac{1}{1-\gamma} \mathbb{E}_{s\sim d_{\mathcal{M}}^{{\color{red}{\pi'}}}}[g(s)] \\
+          = & \frac{1}{1-\gamma} \mathbb{E}_{s\sim d_{\mathcal{M}}^{{\color{red}{\pi'}}}}[F({\color{red}{\pi'}}, Q'_{\pi,\mathcal{M}}, s) - F(\pi, Q'_{\pi,\mathcal{M}}, s)]
       \end{split}
       \end{equation}
       $$
-      最后我们证明$F(\pi', Q'_{\pi,\mathcal{M}}, s) \ge F(\pi, Q'_{\pi,\mathcal{M}}, s)$，将$F$看成关于$\mu$的函数，最优解$\mu^*$满足
+      最后我们证明$F({\color{red}{\pi'}}, Q'_{\pi,\mathcal{M}}, s) \ge F(\pi, Q'_{\pi,\mathcal{M}}, s)$，将$F$看成关于$\mu$的函数，最优解$\mu^*$满足
       $$
       \begin{equation}
       \begin{split}
@@ -443,10 +445,10 @@
       即
       $$
       \begin{equation}
-          F(\pi', Q'_{\pi,\mathcal{M}}, s) \ge F(\pi, Q'_{\pi,\mathcal{M}}, s).
+          F({\color{red}{\pi'}}, Q'_{\pi,\mathcal{M}}, s) \ge F(\pi, Q'_{\pi,\mathcal{M}}, s).
       \end{equation}
       $$
-      这样我们就证明了Max-Entropy RL的策略提升定理（[4]中的定理4）。
+      这样我们就证明了$J_{\mathrm{ME}}({\color{red}{\pi'}}) \ge J_{\mathrm{ME}}(\pi)$，也即Max-Entropy RL的策略提升定理（[4]中的定理4）。
    </p>
 </section>
 
@@ -469,7 +471,7 @@
       \end{split}
       \end{equation}
       $$
-      这里式子1是因为
+      这里式子1是基于下面的等式（可以直接代入$d_{\mathcal{M}}^{\pi}$的定义证明，也可以看文章 [5]中的引理1）
       $$
       \begin{equation}
       \begin{split}
@@ -499,21 +501,21 @@
     <p>
       最后，基于第3小节对$J_{\mathcal{M}'}(\pi') - J_{\mathcal{M}}(\pi)$的推导，我们进一步分析它的一些上界。<br>
 
-      当$\mathcal{M}'=\mathcal{M}$时，基于第三小节中的$(*)$式，我们记$r^* = \max_{s,a} |\mathcal{R}(s,a)|$, $D_{\mathbf{TD}}(\pi,\pi')(s) = \frac{1}{2}\int |\pi'(a|s) - \pi(a|s)|da, \hat{V}_{\mathcal{M},\pi} = \max_s V_{\mathcal{M},\pi}(s) - \min_s V_{\mathcal{M},\pi}(s)$, $\bar{V}_{\mathcal{M},\pi} = \frac{1}{2}(\max_s V_{\mathcal{M},\pi}(s) + \min_s V_{\mathcal{M},\pi}(s))$,
+      当${\color{red}{\mathcal{M'}}}=\mathcal{M}$时，基于第3小节中的式子$(*)$，我们记$r^* = \max_{s,a} |\mathcal{R}(s,a)|$, $D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s) = \frac{1}{2}\int |{\color{red}{\pi'}}(a|s) - \pi(a|s)|da, \hat{V}_{\mathcal{M},\pi} = \max_s V_{\mathcal{M},\pi}(s) - \min_s V_{\mathcal{M},\pi}(s)$, $\bar{V}_{\mathcal{M},\pi} = \frac{1}{2}(\max_s V_{\mathcal{M},\pi}(s) + \min_s V_{\mathcal{M},\pi}(s))$:
       $$
       \begin{equation}
       \begin{split}
           g(s)
-          = & \int (\pi'(a|s) - \pi(a|s)) Q_{\pi', \mathcal{M}}(s,a) da \\
-          = & \int (\pi'(a|s) - \pi(a|s)) \mathcal{R}(s,a) da + \gamma \int (\pi'(a|s) - \pi(a|s)) \mathcal{P}(s'|s,a) V_{\pi', \mathcal{M}}(s') dads' \\
-          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  + \gamma \int (\pi'(a|s) - \pi(a|s)) \mathcal{P}(s'|s,a) V_{\pi', \mathcal{M}}(s') dads' \\
-          = & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  + \gamma \int (\pi'(a|s) - \pi(a|s)) \mathcal{P}(s'|s,a) (V_{\pi', \mathcal{M}}(s') - \bar{V}_{\mathcal{M},\pi}) dads' \\
-          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  + \gamma \int |\pi'(a|s) - \pi(a|s)| \mathcal{P}(s'|s,a) \frac{\hat{V}_{\mathcal{M},\pi}}{2} dads' \\
-          = & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  + \gamma \int |\pi'(a|s) - \pi(a|s)|  \frac{\hat{V}_{\mathcal{M},\pi}}{2} da \\
-          \overset{(*1)}{\leq} & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  +  \gamma D_{\mathbf{TD}}(\pi,\pi')(s)  \hat{V}_{\mathcal{M},\pi} \\
-          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  +  \gamma D_{\mathbf{TD}}(\pi,\pi')(s)  2\max_s|V_{\mathcal{M},\pi}(s)| \\
-          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s)  +  2\gamma D_{\mathbf{TD}}(\pi,\pi')(s)  \frac{1}{1-\gamma}r^* \\
-          \overset{(*2)}{=} & \left(2 + \frac{2\gamma}{1-\gamma}\right) r^* D_{\mathbf{TD}}(\pi,\pi')(s).
+          = & \int ({\color{red}{\pi'}}(a|s) - \pi(a|s)) Q_{{\color{red}{\pi'}}, \mathcal{M}}(s,a) da \\
+          = & \int ({\color{red}{\pi'}}(a|s) - \pi(a|s)) \mathcal{R}(s,a) da + \gamma \int ({\color{red}{\pi'}}(a|s) - \pi(a|s)) \mathcal{P}(s'|s,a) V_{{\color{red}{\pi'}}, \mathcal{M}}(s') dads' \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s)  + \gamma \int ({\color{red}{\pi'}}(a|s) - \pi(a|s)) \mathcal{P}(s'|s,a) V_{{\color{red}{\pi'}}, \mathcal{M}}(s') dads' \\
+          = & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s)  + \gamma \int ({\color{red}{\pi'}}(a|s) - \pi(a|s)) \mathcal{P}(s'|s,a) (V_{{\color{red}{\pi'}}, \mathcal{M}}(s') - \bar{V}_{\mathcal{M},\pi}) dads' \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s)  + \gamma \int |{\color{red}{\pi'}}(a|s) - \pi(a|s)| \mathcal{P}(s'|s,a) \frac{\hat{V}_{\mathcal{M},\pi}}{2} dads' \\
+          = & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s)  + \gamma \int |{\color{red}{\pi'}}(a|s) - \pi(a|s)|  \frac{\hat{V}_{\mathcal{M},\pi}}{2} da \\
+          \overset{(*1)}{\leq} & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s)  +  \gamma D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s)  \hat{V}_{\mathcal{M},\pi} \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s)  +  \gamma D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s)  2\max_s|V_{\mathcal{M},\pi}(s)| \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s)  +  2\gamma D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s)  \frac{1}{1-\gamma}r^* \\
+          \overset{(*2)}{=} & \left(2 + \frac{2\gamma}{1-\gamma}\right) r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s).
       \end{split}
       \end{equation}
       $$
@@ -523,19 +525,19 @@
       $$
       \begin{equation}
       \begin{split}
-          g(s) = & V_{\pi',\mathcal{M}'}(s) - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{\pi', \mathcal{M}'}(s')\right] dads' \\
-          = & \int \left[\pi'(a|s) - \pi(a|s) \right] \mathcal{R}(s,a) da \\
-          + & \gamma \int  \left[ \pi'(a|s) \mathcal{P}'(s'|s,a)   - \pi(a|s) \mathcal{P}(s'|s,a) \right]  V_{\pi', \mathcal{M}'}(s') dads' \\
-          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \gamma \int  \left[ \pi'(a|s) \mathcal{P}'(s'|s,a)   - \pi(a|s) \mathcal{P}(s'|s,a) \right]  V_{\pi', \mathcal{M}'}(s') dads' \\
-          = & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \gamma \int  \pi'(a|s) \left[  \mathcal{P}'(s'|s,a) -  \mathcal{P}(s'|s,a) \right]  V_{\pi', \mathcal{M}'}(s') dads' \\
-          + & \gamma \int  \left[ \pi'(a|s)  - \pi(a|s)\right] \mathcal{P}(s'|s,a)   V_{\pi', \mathcal{M}'}(s') dads' \\
-          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \gamma \int  \pi'(a|s) |  \mathcal{P}'(s'|s,a) -  \mathcal{P}(s'|s,a) |  \max_{s''}| V_{\pi', \mathcal{M}'}(s'')| dads' \\
-          + & \gamma \int  | \pi'(a|s)  - \pi(a|s)| \mathcal{P}(s'|s,a)   \max_{s''}| V_{\pi', \mathcal{M}'}(s'')|  dads' \\
-          \leq & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \frac{\gamma}{1-\gamma} r^* \int  \pi'(a|s) |  \mathcal{P}'(s'|s,a) -  \mathcal{P}(s'|s,a) | dads' \\
-          + & \frac{\gamma}{1-\gamma} r^* \int  | \pi'(a|s)  - \pi(a|s)| \mathcal{P}(s'|s,a) dads' \\
-          = & 2r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \frac{2\gamma}{1-\gamma} r^* D_{\mathbf{TD}}(\mathcal{P},\mathcal{P}')(s,a)  
-          + \frac{2\gamma}{1-\gamma} r^* D_{\mathbf{TD}}(\pi,\pi')(s) \\
-          \leq & \frac{2}{1-\gamma}r^* D_{\mathbf{TD}}(\pi,\pi')(s) + \frac{2\gamma}{1-\gamma} r^* D_{\mathbf{TD}}(\mathcal{P},\mathcal{P}')(s,a) 
+          g(s) = & V_{{\color{red}{\pi'}},{\color{red}{\mathcal{M'}}}}(s) - \int \pi(a|s) \left[\mathcal{R}(s,a) +  \gamma\mathcal{P}(s'|s,a)V_{{\color{red}{\pi'}}, {\color{red}{\mathcal{M'}}}}(s')\right] dads' \\
+          = & \int \left[{\color{red}{\pi'}}(a|s) - \pi(a|s) \right] \mathcal{R}(s,a) da \\
+          + & \gamma \int  \left[ {\color{red}{\pi'}}(a|s) \mathcal{P}'(s'|s,a)   - \pi(a|s) \mathcal{P}(s'|s,a) \right]  V_{{\color{red}{\pi'}}, {\color{red}{\mathcal{M'}}}}(s') dads' \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s) + \gamma \int  \left[ {\color{red}{\pi'}}(a|s) \mathcal{P}'(s'|s,a)   - \pi(a|s) \mathcal{P}(s'|s,a) \right]  V_{{\color{red}{\pi'}}, {\color{red}{\mathcal{M'}}}}(s') dads' \\
+          = & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s) + \gamma \int  {\color{red}{\pi'}}(a|s) \left[  \mathcal{P}'(s'|s,a) -  \mathcal{P}(s'|s,a) \right]  V_{{\color{red}{\pi'}}, {\color{red}{\mathcal{M'}}}}(s') dads' \\
+          + & \gamma \int  \left[ {\color{red}{\pi'}}(a|s)  - \pi(a|s)\right] \mathcal{P}(s'|s,a)   V_{{\color{red}{\pi'}}, {\color{red}{\mathcal{M'}}}}(s') dads' \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s) + \gamma \int  {\color{red}{\pi'}}(a|s) |  \mathcal{P}'(s'|s,a) -  \mathcal{P}(s'|s,a) |  \max_{s''}| V_{{\color{red}{\pi'}}, {\color{red}{\mathcal{M'}}}}(s'')| dads' \\
+          + & \gamma \int  | {\color{red}{\pi'}}(a|s)  - \pi(a|s)| \mathcal{P}(s'|s,a)   \max_{s''}| V_{{\color{red}{\pi'}}, {\color{red}{\mathcal{M'}}}}(s'')|  dads' \\
+          \leq & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s) + \frac{\gamma}{1-\gamma} r^* \int  {\color{red}{\pi'}}(a|s) |  \mathcal{P}'(s'|s,a) -  \mathcal{P}(s'|s,a) | dads' \\
+          + & \frac{\gamma}{1-\gamma} r^* \int  | {\color{red}{\pi'}}(a|s)  - \pi(a|s)| \mathcal{P}(s'|s,a) dads' \\
+          = & 2r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s) + \frac{2\gamma}{1-\gamma} r^* D_{\mathbf{TD}}(\mathcal{P},\mathcal{P}')(s,a)  
+          + \frac{2\gamma}{1-\gamma} r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s) \\
+          \leq & \frac{2}{1-\gamma}r^* D_{\mathbf{TD}}(\pi,{\color{red}{\pi'}})(s) + \frac{2\gamma}{1-\gamma} r^* D_{\mathbf{TD}}(\mathcal{P},\mathcal{P}')(s,a) 
       \end{split}
       \end{equation}
       $$
