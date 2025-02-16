@@ -292,8 +292,12 @@
       $$
       因此我们可以得到
       $$
+      \begin{equation}
+      \begin{split}
       & J_{{\color{red}{\mathcal{M}'}}}({\color{red}{\pi'}}) - J_{\mathcal{M}}(\pi) = \mathbb{E}_{s\sim \rho_0} [V_{{\color{red}{\pi'}},{\color{red}{\mathcal{M'}}}}(s) - V_{\pi,\mathcal{M}}(s)] =  \mathbb{E}_{s\sim\rho_0} [f(s)] 
       = \frac{1}{1-\gamma}\mathbb{E}_{s\sim d_{\mathcal{M}}^{\pi}} [g(s)].
+      \end{split}
+      \end{equation}
       $$
       
       特别的，当${\color{red}{\mathcal{M'}}}=\mathcal{M}$时，即我们考虑同一个MDP下的不同策略的累计期望奖励之差，此时$g(s)$可以简化为：
