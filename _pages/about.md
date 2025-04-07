@@ -98,6 +98,10 @@ Worshop Papers & Preprints
 **Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
 [\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
 
+* Self-Consistent Model-based Adaptation for Visual Reinforcement Learning <br>
+Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
+[\[arXiv\]](https://arxiv.org/pdf/2502.09923.pdf)
+
 * Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications <br>
 Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, Jun Zhu <br>
 [\[arXiv\]](https://arxiv.org/pdf/2211.08064.pdf)
@@ -120,7 +124,7 @@ Projects
 
 Services
 ======
-Reviewer for ICML 2022, 2024, 2025, NeurIPS 2022, 2023, 2024, ICLR 2024, 2025, IJCAI 2024, 2025, AAAI 2025, CVPR 2024, 2025, AISTATS 2025, ISIT 2024, TCSVT
+Reviewer for ICML 2022, 2024, 2025, NeurIPS 2022, 2023, 2024, 2025, ICLR 2024, 2025, IJCAI 2024, 2025, AAAI 2025, CVPR 2024, 2025, ICCV 2025, AISTATS 2025, ISIT 2024, TCSVT
 
 <!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
 
