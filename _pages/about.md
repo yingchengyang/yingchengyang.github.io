@@ -20,7 +20,7 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 
 [Blog: A Useful Lemma for Several RL Results](https://yingchengyang.github.io/posts/2025-02-15-bellman-lemma/)
 
-Publications
+Selected Publications \[[Full List](https://yingchengyang.github.io/publications/)\]
 ======
 * [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://openreview.net/forum?id=LyAFfdx8YF) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
