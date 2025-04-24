@@ -3,6 +3,8 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+redirect_from:
+  - /resume
 ---
 
 {% if author.googlescholar %}
@@ -14,6 +16,8 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %} -->
+
+<h3>2024</h3>
 
 * [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://openreview.net/forum?id=LyAFfdx8YF) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
@@ -34,6 +38,8 @@ International Conference on Machine Learning **(ICML)**, Vienna, Austria, 2024 <
 You Qiaoben, **Chengyang Ying**, Xinning Zhou, Hang Su, Jun Zhu, Bo Zhang <br>
 SCIENCE CHINA Information Sciences **(SCIS)**, 2024 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2106.15860.pdf) [\[code\]](https://github.com/yingchengyang/Two-Stage-Attack)
+
+<h3>2023</h3>
 
 * [On the Reuse Bias in Off-Policy Reinforcement Learning](https://www.ijcai.org/proceedings/2023/0502) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
@@ -64,6 +70,8 @@ International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda,
 Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Jian Song, Ze Cheng <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.07075.pdf) [\[code\]](https://github.com/HaoZhongkai/Bi-level-PINN)
+
+<h3>2022</h3>
 
 * [A Unified Hard-Constraint Framework for Solving Geometrically Complex PDEs](https://openreview.net/forum?id=GNt5ntEGjD3) <br>
 Songming Liu, Zhongkai Hao, **Chengyang Ying**, Hang Su, Jun Zhu, Ze Cheng <br>
