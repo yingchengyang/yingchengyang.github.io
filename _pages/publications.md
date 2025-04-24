@@ -87,3 +87,26 @@ International Conference on Machine Learning **(ICML)**, Baltimore, USA, 2022 <b
 **Chengyang Ying**, Xinning Zhou, Hang Su, Dong Yan, Ning Chen, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, Austria, 2022 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2206.04436.pdf) [\[code\]](https://github.com/yingchengyang/CPPO) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/CVaR_safe_RL/CVaR_Safe_RL.pdf) [\[ICML 2021 AML Workshop\]](https://openreview.net/forum?id=igA6MDRISO1)
+
+
+Worshop Papers & Preprints
+======
+* Exploratory Diffusion Policy for Unsupervised Reinforcement Learning <br>
+**Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
+[\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
+
+* Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
+**Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
+[\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
+
+* Self-Consistent Model-based Adaptation for Visual Reinforcement Learning <br>
+Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
+[\[arXiv\]](https://arxiv.org/pdf/2502.09923.pdf)
+
+* Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications <br>
+Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, Jun Zhu <br>
+[\[arXiv\]](https://arxiv.org/pdf/2211.08064.pdf)
+
+* [Strategically-timed State-Observation Attacks on Deep Reinforcement Learning Agents](https://openreview.net/forum?id=FSD_8Sglf_u) <br>
+You Qiaoben, Xinning Zhou, **Chengyang Ying**, Jun Zhu <br>
+ICML 2021 Workshop on Adversarial Machine Learning, 2021 <br>
