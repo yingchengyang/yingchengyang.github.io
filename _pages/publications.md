@@ -7,15 +7,9 @@ redirect_from:
   - /resume
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{https://scholar.google.com/citations?hl=zh-CN&user=vM6KE18AAAAJ}}">my Google Scholar profile</a>.</u>
-{% endif %}
+You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?hl=zh-CN&user=vM6KE18AAAAJ).
 
-<!-- {% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
+∗ for equal contribution
 
 <h3>2024</h3>
 

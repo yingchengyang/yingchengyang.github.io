@@ -45,11 +45,6 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Macao, Ch
 **Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
 [\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
 
-* [GNOT: A General Neural Operator Transformer for Operator Learning](https://openreview.net/forum?id=JomvpMQ6NF) <br>
-Zhongkai Hao, Zhengyi Wang, Hang Su, **Chengyang Ying**, Yinpeng Dong, Songming Liu, Ze Cheng, Jun Zhu, Jian Song <br>
-International Conference on Machine Learning **(ICML)**, Hawaii, USA, 2023 <br>
-[\[arXiv\]](https://arxiv.org/pdf/2302.14376.pdf) [\[code\]](https://github.com/HaoZhongkai/GNOT)
-
 * [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://openreview.net/forum?id=42zs3qa2kpy) <br>
 Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
 International Conference on Learning Representations **(ICLR)**, Kigali, Rwanda, 2023 <br>
