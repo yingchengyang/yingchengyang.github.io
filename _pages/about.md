@@ -36,14 +36,14 @@ Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng
 Neural Information Processing Systems **(NeurIPS)**, Vancouver, Canada, 2024 <br>
 [\[project page\]](https://yingchengyang.github.io/ceurl) [\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[code\]](https://github.com/thu-ml/CEURL) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
 
+* Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
+**Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
+[\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
+
 * [On the Reuse Bias in Off-Policy Reinforcement Learning](https://www.ijcai.org/proceedings/2023/0502) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Macao, China, 2023 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2209.07074.pdf) [\[code\]](https://github.com/yingchengyang/BIRIS) [\[slide\]](https://ml.cs.tsinghua.edu.cn/~chengyang/Reuse_Bias/reuse_bias.pdf)
-
-* Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
-**Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
-[\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
 
 * [Offline Reinforcement Learning via High-Fidelity Generative Behavior Modeling](https://openreview.net/forum?id=42zs3qa2kpy) <br>
 Huayu Chen, Cheng Lu, **Chengyang Ying**, Hang Su, Jun Zhu <br>
@@ -78,7 +78,7 @@ Projects
 
 Services
 ======
-Reviewer for NeurIPS 2022-2025, ICML 2024-2025, ICLR 2024-2025, IJCAI 2024-2025, AAAI 2025, CVPR 2024-2025, ICCV 2025, AISTATS 2025, ECAI 2025, ISIT 2024, TCSVT
+Reviewer: NeurIPS 2022-2025, ICML 2024-2025, ICLR 2024-2025, IJCAI 2024-2025, AAAI 2025, CVPR 2024-2025, ICCV 2025, AISTATS 2025, ECAI 2025, ISIT 2024, TCSVT
 
 <!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
 
@@ -114,4 +114,4 @@ Reading group slides:
 
  
 ***
-Last update: Febrary 2025 by Chengyang Ying
+Last update: April 2025 by Chengyang Ying
