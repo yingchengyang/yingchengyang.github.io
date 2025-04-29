@@ -29,6 +29,7 @@ Selected Publications \[[Full List](https://yingchengyang.github.io/publications
 
 * Self-Consistent Model-based Adaptation for Visual Reinforcement Learning <br>
 Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
+International Joint Conference on Artificial Intelligence **(IJCAI)**, Montreal, Canada, 2025 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2502.09923.pdf)
 
 * [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://openreview.net/forum?id=LyAFfdx8YF) <br>

@@ -11,6 +11,13 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 ∗ for equal contribution
 
+<h3>2025</h3>
+
+* Self-Consistent Model-based Adaptation for Visual Reinforcement Learning <br>
+Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
+International Joint Conference on Artificial Intelligence **(IJCAI)**, Montreal, Canada, 2025 <br>
+[\[arXiv\]](https://arxiv.org/pdf/2502.09923.pdf)
+
 <h3>2024</h3>
 
 * [PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning](https://openreview.net/forum?id=LyAFfdx8YF) <br>
@@ -92,10 +99,6 @@ Worshop Papers & Preprints
 * Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
 **Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
 [\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
-
-* Self-Consistent Model-based Adaptation for Visual Reinforcement Learning <br>
-Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
-[\[arXiv\]](https://arxiv.org/pdf/2502.09923.pdf)
 
 * Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications <br>
 Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, Jun Zhu <br>
