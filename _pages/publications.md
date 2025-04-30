@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?hl=zh-CN&user=vM6KE18AAAAJ).
+You can also find my papers on [my Google Scholar profile](https://scholar.google.com/citations?hl=zh-CN&user=vM6KE18AAAAJ).
 
 ∗ for equal contribution
 

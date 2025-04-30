@@ -175,10 +175,10 @@ kramdown:
 
 # Collections
 collections:
-    photos:
+    publications:
       output: true
       permalink: /:collection/:path/
-    publications:
+    photos:
       output: true
       permalink: /:collection/:path/
 #   teaching:
