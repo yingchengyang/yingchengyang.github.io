@@ -6,6 +6,9 @@ main:
   - title: "Photos"
     url: /photos/
 
+  - title: "Blogs"
+    url: /blogs/
+
 #  - title: "Talks"
 #    url: /talks/    
 
