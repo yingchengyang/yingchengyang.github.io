@@ -23,9 +23,9 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 Selected Publications \[[Full List](https://yingchengyang.github.io/publications/)\]
 ======
 
-* Exploratory Diffusion Policy for Unsupervised Reinforcement Learning <br>
+* Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
-[\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
+[\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
 
 * Self-Consistent Model-based Adaptation for Visual Reinforcement Learning <br>
 Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
