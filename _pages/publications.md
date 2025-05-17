@@ -94,7 +94,7 @@ Worshop Papers & Preprints
 ======
 * Exploratory Diffusion Policy for Unsupervised Reinforcement Learning <br>
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
-[\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
+[\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
 
 * Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
 **Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
