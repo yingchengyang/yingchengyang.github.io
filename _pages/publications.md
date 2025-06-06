@@ -92,7 +92,7 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
-* Exploratory Diffusion Policy for Unsupervised Reinforcement Learning <br>
+* Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
 [\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
 

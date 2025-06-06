@@ -27,6 +27,10 @@ Selected Publications \[[Full List](https://yingchengyang.github.io/publications
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
 [\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
 
+* ManiBox: Enhancing Embodied Spatial Generalization via Scalable Simulation Data Generations <br>
+Hengkai Tan<sup>&lowast;</sup>, Xuezhou Xu<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Xinyi Mao, Zeyuan Wang, Songming Liu, Xingxing Zhang, Zhizhong Su, Hang Su, Jun Zhu <br>
+[\[project page\]](https://thkkk.github.io/manibox) [\[arXiv\]](https://arxiv.org/pdf/2411.01850.pdf)
+
 * Self-Consistent Model-based Adaptation for Visual Reinforcement Learning <br>
 Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Montreal, Canada, 2025 <br>
