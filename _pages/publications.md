@@ -13,6 +13,10 @@ You can also find my papers on [my Google Scholar profile](https://scholar.googl
 
 <h3>2025</h3>
 
+* Reinforced Embodied Active Defense: Exploiting Adaptive Interaction for Robust Visual Perception in Adversarial 3D Environments <br>
+Xiao Yang, Lingxuan Wu, Lizhong Wang, **Chengyang Ying**, Hang Su, Jun Zhu <br>
+IEEE Transactions on Pattern Analysis and Machine Intelligence **(TPAMI)**, 2025
+
 * Self-Consistent Model-based Adaptation for Visual Reinforcement Learning <br>
 Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Montreal, Canada, 2025 <br>
