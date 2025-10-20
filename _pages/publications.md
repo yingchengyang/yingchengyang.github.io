@@ -96,7 +96,7 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
-* A^2Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
+* A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
 Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou Fan, Chengen Huang, Jacky Keung, Bei Chen, Junyang Lin <br>
 [\[arXiv\]](https://arxiv.org/pdf/2510.07958)
 

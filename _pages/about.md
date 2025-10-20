@@ -23,7 +23,7 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 Selected Publications \[[Full List](https://yingchengyang.github.io/publications/)\]
 ======
 
-* A^2Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
+* A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
 Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou Fan, Chengen Huang, Jacky Keung, Bei Chen, Junyang Lin <br>
 [\[arXiv\]](https://arxiv.org/pdf/2510.07958)
 
