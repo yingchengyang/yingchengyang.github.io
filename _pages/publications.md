@@ -17,7 +17,7 @@ You can also find my papers on [my Google Scholar profile](https://scholar.googl
 Xiao Yang, Lingxuan Wu, Lizhong Wang, **Chengyang Ying**, Hang Su, Jun Zhu <br>
 IEEE Transactions on Pattern Analysis and Machine Intelligence **(TPAMI)**, 2025
 
-* Self-Consistent Model-based Adaptation for Visual Reinforcement Learning <br>
+[Self-Consistent Model-based Adaptation for Visual Reinforcement Learning](https://www.ijcai.org/proceedings/2025/0800) <br>
 Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Montreal, Canada, 2025 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2502.09923.pdf)
@@ -96,6 +96,10 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
+* A^2Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
+Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou Fan, Chengen Huang, Jacky Keung, Bei Chen, Junyang Lin <br>
+[\[arXiv\]](https://arxiv.org/pdf/2510.07958)
+
 * Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
 [\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)

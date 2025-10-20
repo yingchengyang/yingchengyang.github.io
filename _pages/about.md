@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m Chengyang Ying, a fourth-year Ph.D. student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in the [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and A/Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **machine learning**, **reinforcement learning**, **Embodied AI**, and **AI for science**. 
+I’m Chengyang Ying, a final-year Ph.D. student of [TSAIL Group](https://ml.cs.tsinghua.edu.cn/index.html) in the [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) and A/Prof. [Hang Su](https://www.suhangss.me/). My research interest includes **Machine Learning**, **Reinforcement Learning**, **Embodied AI**, and **RL Agents**. 
 
 Before that, I obtained my Bachelor of Science degree from the [Department of Mathematical Sciences](https://math.tsinghua.edu.cn/) of [Tsinghua University](https://www.tsinghua.edu.cn/) in July 2021, majored in **Mathematics** and minored in **Computer Application**.
 
@@ -23,6 +23,10 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 Selected Publications \[[Full List](https://yingchengyang.github.io/publications/)\]
 ======
 
+* A^2Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
+Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou Fan, Chengen Huang, Jacky Keung, Bei Chen, Junyang Lin <br>
+[\[arXiv\]](https://arxiv.org/pdf/2510.07958)
+
 * Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
 [\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
@@ -31,7 +35,7 @@ Selected Publications \[[Full List](https://yingchengyang.github.io/publications
 Hengkai Tan<sup>&lowast;</sup>, Xuezhou Xu<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Xinyi Mao, Zeyuan Wang, Songming Liu, Xingxing Zhang, Zhizhong Su, Hang Su, Jun Zhu <br>
 [\[project page\]](https://thkkk.github.io/manibox) [\[arXiv\]](https://arxiv.org/pdf/2411.01850.pdf)
 
-* Self-Consistent Model-based Adaptation for Visual Reinforcement Learning <br>
+* [Self-Consistent Model-based Adaptation for Visual Reinforcement Learning](https://www.ijcai.org/proceedings/2025/0800) <br>
 Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Montreal, Canada, 2025 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2502.09923.pdf)
@@ -83,16 +87,14 @@ Projects
 
 Services
 ======
-Reviewer: NeurIPS 2022-2025, ICML 2024-2025, ICLR 2024-2025, IJCAI 2024-2025, AAAI 2025, CVPR 2024-2025, ICCV 2025, AISTATS 2025, ECAI 2025, ISIT 2024, TCSVT
-
-<!-- Others: Reviewer for Adversarial Machine Larning workshop@ICML 2021 & AAAI 2022 -->
+Reviewer: NeurIPS 2022-2025, ICML 2024-2025, ICLR 2024-2026, IJCAI 2024-2025, AAAI 2025-2026, CVPR 2024-2026, ICCV 2025, AISTATS 2025-2026, TCSVT
 
 Selected Awards
 ======
 * **Beijing Outstanding Gradates, 2021.6** 
 * **Tsinghua Excellent Gradates, Tsinghua University, 2021.6**
 * **China National Scholarship, Tsinghua University, 2018.10**
-* The first prize of “Gao Jiao She Bei”national mathematical modeling competition for College Students, 2018.10
+* The first prize of "Gao Jiao She Bei" national mathematical modeling competition for College Students, 2018.10
 * **Silver Award of Chinese Mathematical Olympiad (CMO), 2016.11**
 
 <!-- * WQF Scholarship, Tsinghua University, 2020.10
