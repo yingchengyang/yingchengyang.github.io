@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-You can also find my papers on [my Google Scholar profile](https://scholar.google.com/citations?hl=zh-CN&user=vM6KE18AAAAJ).
+You can also find all my papers on [my Google Scholar profile](https://scholar.google.com/citations?hl=zh-CN&user=vM6KE18AAAAJ).
 
 ∗ for equal contribution
 
@@ -17,7 +17,7 @@ You can also find my papers on [my Google Scholar profile](https://scholar.googl
 Xiao Yang, Lingxuan Wu, Lizhong Wang, **Chengyang Ying**, Hang Su, Jun Zhu <br>
 IEEE Transactions on Pattern Analysis and Machine Intelligence **(TPAMI)**, 2025
 
-[Self-Consistent Model-based Adaptation for Visual Reinforcement Learning](https://www.ijcai.org/proceedings/2025/0800) <br>
+* [Self-Consistent Model-based Adaptation for Visual Reinforcement Learning](https://www.ijcai.org/proceedings/2025/0800) <br>
 Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
 International Joint Conference on Artificial Intelligence **(IJCAI)**, Montreal, Canada, 2025 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2502.09923.pdf)
@@ -103,6 +103,10 @@ Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou 
 * Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
 [\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
+
+* ManiBox: Enhancing Embodied Spatial Generalization via Scalable Simulation Data Generations <br>
+Hengkai Tan<sup>&lowast;</sup>, Xuezhou Xu<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Xinyi Mao, Zeyuan Wang, Songming Liu, Xingxing Zhang, Zhizhong Su, Hang Su, Jun Zhu <br>
+[\[project page\]](https://thkkk.github.io/manibox) [\[arXiv\]](https://arxiv.org/pdf/2411.01850.pdf)
 
 * Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
 **Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
