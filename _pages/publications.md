@@ -11,11 +11,20 @@ You can also find all my papers on [my Google Scholar profile](https://scholar.g
 
 ∗ for equal contribution
 
+<h3>2026</h3>
+
+* Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
+**Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
+SCIENCE CHINA Information Sciences **(SCIS)**, 2026 <br>
+[\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf) [\[code\]](https://github.com/yingchengyang/TAD)
+
+
 <h3>2025</h3>
 
 * Reinforced Embodied Active Defense: Exploiting Adaptive Interaction for Robust Visual Perception in Adversarial 3D Environments <br>
 Xiao Yang, Lingxuan Wu, Lizhong Wang, **Chengyang Ying**, Hang Su, Jun Zhu <br>
-IEEE Transactions on Pattern Analysis and Machine Intelligence **(TPAMI)**, 2025
+IEEE Transactions on Pattern Analysis and Machine Intelligence **(TPAMI)**, 2025 <br>
+[\[arXiv\]](https://arxiv.org/pdf/2507.18484) [\[code\]](https://github.com/thu-ml/EmbodiedActiveDefense)
 
 * [Self-Consistent Model-based Adaptation for Visual Reinforcement Learning](https://www.ijcai.org/proceedings/2025/0800) <br>
 Xinning Zhou<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Yao Feng, Hang Su, Jun Zhu <br>
@@ -96,21 +105,17 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
+* Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
+**Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
+[\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf) [\[code\]](https://github.com/yingchengyang/ExDM)
+
 * A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
 Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou Fan, Chengen Huang, Jacky Keung, Bei Chen, Junyang Lin <br>
 [\[arXiv\]](https://arxiv.org/pdf/2510.07958)
 
-* Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
-**Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
-[\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
-
 * ManiBox: Enhancing Embodied Spatial Generalization via Scalable Simulation Data Generations <br>
 Hengkai Tan<sup>&lowast;</sup>, Xuezhou Xu<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Xinyi Mao, Zeyuan Wang, Songming Liu, Xingxing Zhang, Zhizhong Su, Hang Su, Jun Zhu <br>
 [\[project page\]](https://thkkk.github.io/manibox) [\[arXiv\]](https://arxiv.org/pdf/2411.01850.pdf)
-
-* Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
-**Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
-[\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
 
 * Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications <br>
 Zhongkai Hao, Songming Liu, Yichi Zhang, **Chengyang Ying**, Yao Feng, Hang Su, Jun Zhu <br>

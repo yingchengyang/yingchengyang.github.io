@@ -23,13 +23,18 @@ Email: ycy21@mails.tsinghua.edu.cn; yingcy17@gmail.com
 Selected Publications \[[Full List](https://yingchengyang.github.io/publications/)\]
 ======
 
-* A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
-Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou Fan, Chengen Huang, Jacky Keung, Bei Chen, Junyang Lin <br>
-[\[arXiv\]](https://arxiv.org/pdf/2510.07958)
+* Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
+**Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
+SCIENCE CHINA Information Sciences **(SCIS)**, 2026 <br>
+[\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf) [\[code\]](https://github.com/yingchengyang/TAD)
 
 * Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
-[\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf)
+[\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf) [\[code\]](https://github.com/yingchengyang/ExDM)
+
+* A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
+Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou Fan, Chengen Huang, Jacky Keung, Bei Chen, Junyang Lin <br>
+[\[arXiv\]](https://arxiv.org/pdf/2510.07958)
 
 * ManiBox: Enhancing Embodied Spatial Generalization via Scalable Simulation Data Generations <br>
 Hengkai Tan<sup>&lowast;</sup>, Xuezhou Xu<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Xinyi Mao, Zeyuan Wang, Songming Liu, Xingxing Zhang, Zhizhong Su, Hang Su, Jun Zhu <br>
@@ -44,10 +49,6 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Montreal,
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Xuezhou Xu, Hang Su, Xingxing Zhang, Jun Zhu <br>
 Neural Information Processing Systems **(NeurIPS)**, Vancouver, Canada, 2024 <br>
 [\[project page\]](https://yingchengyang.github.io/ceurl) [\[arXiv\]](https://arxiv.org/pdf/2405.14073.pdf) [\[code\]](https://github.com/thu-ml/CEURL) [\[video\]](https://ml.cs.tsinghua.edu.cn/~chengyang/PEAC/video.mp4)
-
-* Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
-**Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
-[\[arXiv\]](https://arxiv.org/pdf/2303.05092.pdf)
 
 * [On the Reuse Bias in Off-Policy Reinforcement Learning](https://www.ijcai.org/proceedings/2023/0502) <br>
 **Chengyang Ying**, Zhongkai Hao, Xinning Zhou, Hang Su, Dong Yan, Jun Zhu <br>
@@ -87,7 +88,7 @@ Projects
 
 Services
 ======
-Reviewer: NeurIPS 2022-2025, ICML 2024-2025, ICLR 2024-2026, IJCAI 2024-2025, AAAI 2025-2026, CVPR 2024-2026, ICCV 2025, AISTATS 2025-2026, TCSVT
+Reviewer: NeurIPS 2022-2025, ICML 2024-2026, ICLR 2024-2026, IJCAI 2024-2026, AAAI 2025-2026, CVPR 2024-2026, ICCV 2025, AISTATS 2025-2026, TCSVT
 
 Selected Awards
 ======
@@ -121,4 +122,4 @@ Reading group slides:
 
  
 ***
-Last update: April 2025 by Chengyang Ying
+Last update: January 2026 by Chengyang Ying
