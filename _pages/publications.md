@@ -13,6 +13,16 @@ You can also find all my papers on [my Google Scholar profile](https://scholar.g
 
 <h3>2026</h3>
 
+* Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
+**Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
+International Conference on Learning Representations **(ICLR)**, Rio de Janeiro, Brazil, 2026 <br>
+[\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf) [\[code\]](https://github.com/yingchengyang/ExDM)
+
+* A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
+Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou Fan, Chengen Huang, Jacky Keung, Bei Chen, Junyang Lin <br>
+International Conference on Learning Representations **(ICLR)**, Rio de Janeiro, Brazil, 2026 <br>
+[\[arXiv\]](https://arxiv.org/pdf/2510.07958) [\[code\]](https://github.com/zfj1998/A2Search)
+
 * Task Aware Dreamer for Task Generalization in Reinforcement Learning <br>
 **Chengyang Ying<sup>&lowast;</sup>**, Xinning Zhou<sup>&lowast;</sup>, Zhongkai Hao, Hang Su, Songming Liu, Dong Yan, Jun Zhu <br>
 SCIENCE CHINA Information Sciences **(SCIS)**, 2026 <br>
@@ -105,14 +115,6 @@ International Joint Conference on Artificial Intelligence **(IJCAI)**, Vienna, A
 
 Worshop Papers & Preprints
 ======
-* Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
-**Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
-[\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf) [\[code\]](https://github.com/yingchengyang/ExDM)
-
-* A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
-Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou Fan, Chengen Huang, Jacky Keung, Bei Chen, Junyang Lin <br>
-[\[arXiv\]](https://arxiv.org/pdf/2510.07958)
-
 * ManiBox: Enhancing Embodied Spatial Generalization via Scalable Simulation Data Generations <br>
 Hengkai Tan<sup>&lowast;</sup>, Xuezhou Xu<sup>&lowast;</sup>, **Chengyang Ying<sup>&lowast;</sup>**, Xinyi Mao, Zeyuan Wang, Songming Liu, Xingxing Zhang, Zhizhong Su, Hang Su, Jun Zhu <br>
 [\[project page\]](https://thkkk.github.io/manibox) [\[arXiv\]](https://arxiv.org/pdf/2411.01850.pdf)
