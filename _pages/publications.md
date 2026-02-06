@@ -13,12 +13,13 @@ You can also find all my papers on [my Google Scholar profile](https://scholar.g
 
 <h3>2026</h3>
 
-* Exploratory Diffusion Model for Unsupervised Reinforcement Learning <br>
+* [Exploratory Diffusion Model for Unsupervised Reinforcement Learning](https://openreview.net/forum?id=k0Kb1ynFbt) <br>
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
 International Conference on Learning Representations **(ICLR)**, Rio de Janeiro, Brazil, 2026 <br>
+<font color="red">Oral</font> <br>
 [\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf) [\[code\]](https://github.com/yingchengyang/ExDM)
 
-* A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning <br>
+* [A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning](https://openreview.net/forum?id=3CPzUWIoNf) <br>
 Fengji Zhang, Xinyao Niu, **Chengyang Ying**, Guancheng Lin, Zhongkai Hao, Zhou Fan, Chengen Huang, Jacky Keung, Bei Chen, Junyang Lin <br>
 International Conference on Learning Representations **(ICLR)**, Rio de Janeiro, Brazil, 2026 <br>
 [\[arXiv\]](https://arxiv.org/pdf/2510.07958) [\[code\]](https://github.com/zfj1998/A2Search)
