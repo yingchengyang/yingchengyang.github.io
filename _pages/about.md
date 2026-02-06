@@ -26,7 +26,7 @@ Selected Publications \[[Full List](https://yingchengyang.github.io/publications
 * [Exploratory Diffusion Model for Unsupervised Reinforcement Learning](https://openreview.net/forum?id=k0Kb1ynFbt) <br>
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
 International Conference on Learning Representations **(ICLR)**, Rio de Janeiro, Brazil, 2026 <br>
-<font color="red">Oral</font> <br>
+<span style="color:red">**Oral**</span> <br>
 [\[project page\]](https://yingchengyang.github.io/exdm) [\[arXiv\]](https://arxiv.org/pdf/2502.07279.pdf) [\[code\]](https://github.com/yingchengyang/ExDM)
 
 * [A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning](https://openreview.net/forum?id=3CPzUWIoNf) <br>
