@@ -13,7 +13,7 @@ You can also find all my papers on [my Google Scholar profile](https://scholar.g
 
 <h3>2026</h3>
 
-*PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation <br>
+* PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation <br>
 Lingxuan Wu, Zijian Zhu, Lizhong Wang, **Chengyang Ying**, Huayu Chen, Xiao Yang, Fangming Liu, Jun Zhu <br>
 International Conference on Machine Learning **(ICML)**, Seoul, South Korea, 2026 <br>
 <span style="color:red">Spotlight (Accept rate~2.2%)</span> <br>
