@@ -108,6 +108,7 @@ Selected Awards
 
 Teaching
 ======
+* 2026 Spring, Head TA in Statistical Machine Learning, instructed by Prof. Jun Zhu
 * 2024 Fall, TA in Advanced Machine Learning, instructed by Prof. Jie Tang and Prof. Jun Zhu
 * 2022 Spring, TA in Deep Learning, instructed by A/Prof. Xiaolin Hu and Prof. Jun Zhu
 * 2022 Spring, TA in Statistical Machine Learning, instructed by Prof. Jun Zhu

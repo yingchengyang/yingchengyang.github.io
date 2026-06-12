@@ -13,6 +13,12 @@ You can also find all my papers on [my Google Scholar profile](https://scholar.g
 
 <h3>2026</h3>
 
+*PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation <br>
+Lingxuan Wu, Zijian Zhu, Lizhong Wang, **Chengyang Ying**, Huayu Chen, Xiao Yang, Fangming Liu, Jun Zhu <br>
+International Conference on Machine Learning **(ICML)**, Seoul, South Korea, 2026 <br>
+<span style="color:red">Spotlight (Accept rate~2.2%)</span> <br>
+[\[project page\]](https://ethan-iai.github.io/pact/) [\[arXiv\]](https://arxiv.org/pdf/2606.08414) [\[code\]](https://github.com/thu-ml/PACT)
+
 * [Exploratory Diffusion Model for Unsupervised Reinforcement Learning](https://openreview.net/forum?id=k0Kb1ynFbt) <br>
 **Chengyang Ying**, Huayu Chen, Xinning Zhou, Zhongkai Hao, Hang Su, Jun Zhu <br>
 International Conference on Learning Representations **(ICLR)**, Rio de Janeiro, Brazil, 2026 <br>
